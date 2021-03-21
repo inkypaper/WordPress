@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Sat, 20 Mar 2021 00:34:36 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 20 Mar 2021 18:40:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,181 +20,183 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7</generator>
 	<item>
+		<title>dobe dobe dobee dooooo</title>
+		<link>./../85/index.html</link>
+					<comments>./../85/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 20 Mar 2021 18:36:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=85</guid>
+
+					<description><![CDATA[5 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 5</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
+					
+					<wfw:commentRss>./../85/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Riviera</title>
+		<link>./../69/index.html</link>
+					<comments>./../69/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 20 Mar 2021 05:53:02 +0000</pubDate>
+				<category><![CDATA[new cat]]></category>
+		<category><![CDATA[Drama]]></category>
+		<category><![CDATA[Thriller]]></category>
+		<guid isPermaLink="false">./../index.html?p=69</guid>
+
+					<description><![CDATA[8 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 8</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
+					
+					<wfw:commentRss>./../69/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-11/index.html</link>
-					<comments>./../2021/03/20/hello-world-11/index.html#respond</comments>
+		<link>./../13/index.html</link>
+					<comments>./../13/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:29 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[new cat]]></category>
 		<guid isPermaLink="false">./../index.html?p=13</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[20 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 20</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-11/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../13/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-11-3/index.html</link>
-					<comments>./../2021/03/20/hello-world-11-3/index.html#respond</comments>
+		<link>./../15/index.html</link>
+					<comments>./../15/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:19 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[new cat]]></category>
 		<guid isPermaLink="false">./../index.html?p=15</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[3 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 3</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-11-3/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../15/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-11-3/index.html</link>
-					<comments>./../2021/03/20/hello-world-11-3/index.html#respond</comments>
+		<link>./../14/index.html</link>
+					<comments>./../14/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:19 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+				<category><![CDATA[new cat]]></category>
 		<guid isPermaLink="false">./../index.html?p=14</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[3 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 3</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-11-3/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../14/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-14/index.html</link>
-					<comments>./../2021/03/20/hello-world-14/index.html#respond</comments>
+		<link>./../16/index.html</link>
+					<comments>./../16/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:16 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../index.html?p=16</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[3 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 3</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-14/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../16/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-13/index.html</link>
-					<comments>./../2021/03/20/hello-world-13/index.html#respond</comments>
+		<link>./../17/index.html</link>
+					<comments>./../17/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:14 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../index.html?p=17</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[5 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 5</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-13/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../17/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-12/index.html</link>
-					<comments>./../2021/03/20/hello-world-12/index.html#respond</comments>
+		<link>./../18/index.html</link>
+					<comments>./../18/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:12 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../index.html?p=18</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[14 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 14</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-12/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../18/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-11-2/index.html</link>
-					<comments>./../2021/03/20/hello-world-11-2/index.html#respond</comments>
+		<link>./../20/index.html</link>
+					<comments>./../20/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:09 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../index.html?p=20</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[6 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 6</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-11-2/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../20/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-11-2/index.html</link>
-					<comments>./../2021/03/20/hello-world-11-2/index.html#respond</comments>
+		<link>./../19/index.html</link>
+					<comments>./../19/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 20 Mar 2021 00:34:09 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../index.html?p=19</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[3 Views]]></description>
+										<content:encoded><![CDATA[<div class='epvc-post-count'><span class='epvc-eye'></span>  <span class="epvc-count"> 3</span><span class='epvc-label'> Views</span></div>]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/03/20/hello-world-11-2/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-10/index.html</link>
-					<comments>./../2021/03/20/hello-world-10/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Sat, 20 Mar 2021 00:34:07 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../index.html?p=21</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>./../2021/03/20/hello-world-10/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Hello world!</title>
-		<link>./../2021/03/20/hello-world-9/index.html</link>
-					<comments>./../2021/03/20/hello-world-9/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Sat, 20 Mar 2021 00:34:04 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../index.html?p=22</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>./../2021/03/20/hello-world-9/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../19/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

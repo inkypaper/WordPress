@@ -93,9 +93,12 @@
 }
 </script>
 
+
 <link rel="stylesheet" type="text/css" href="./../wp-content/themes/yc/style-mobile.css">
 <link rel="stylesheet" type="text/css" href="./../wp-content/themes/yc/css/font-awesome.min.css">
+
 <link rel="stylesheet" type="text/css" href="./../wp-content/themes/yc/css/mediascreen.css">
+
 <script type="text/javascript" src="./../wp-content/themes/yc/js/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="./../wp-content/themes/yc/js/jquery.carouFredSel-6.2.1-packed.js"></script>
 <script type="text/javascript" src="./../wp-content/themes/yc/js/owl.carousel.min.js"></script>
@@ -168,7 +171,34 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }</style>
+			<style type="text/css">.epvc-eye {
+				margin-right: 3px;
+				width: 13px;
+				display: inline-block;
+				height: 13px;
+				border: solid 1px #000;
+				border-radius:  75% 15%;
+				position: relative;
+				transform: rotate(45deg);
+			}
+			.epvc-eye:before {
+				content: '';
+				display: block;
+				position: absolute;
+				width: 5px;
+				height: 5px;
+				border: solid 1px #000;
+				border-radius: 50%;
+				left: 3px;
+				top: 3px;
+			}</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="./../wp-includes/css/dist/block-library/style.min.css?ver=5.7" type="text/css" media="all">
+<link rel="stylesheet" id="a3-pvc-style-css" href="./../wp-content/plugins/page-views-count/assets/css/style.min.css?ver=2.4.8" type="text/css" media="all">
+<link rel="stylesheet" id="dashicons-css" href="./../wp-includes/css/dashicons.min.css?ver=5.7" type="text/css" media="all">
+<link rel="stylesheet" id="post-views-counter-frontend-css" href="./../wp-content/plugins/post-views-counter/css/frontend.css?ver=1.3.4" type="text/css" media="all">
+<link rel="stylesheet" id="a3pvc-css" href="./../wp-content/uploads/sass/pvc.min.css?ver=1616304807" type="text/css" media="all">
+<script type="text/javascript" src="./../wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <link rel="https://api.w.org/" href="./../wp-json/index.html">
 <link rel="alternate" type="application/json" href="./../wp-json/wp/v2/pages/51/index.html">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../xmlrpc.php?rsd">
@@ -178,7 +208,53 @@ img.emoji {
 <link rel="shortlink" href="./../index.html?p=51">
 <link rel="alternate" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F51-2%2F">
 <link rel="alternate" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=http%3A%2F%2F%2F51-2%2F&#038;format=xml">
-
+			<script>
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate() + 365);    
+		var screen_width =  screen.width +"x"+ screen.height;  
+		var c_value=screen_width + "; expires="+exdate.toUTCString()+"; path=/";
+		document.cookie= 'wpls_screensize=' + c_value;
+			
+			
+			</script>
+            
+            					<script>
+					document.cookie="wpls_page_c6d013353440260855febee5c7416554=yes";
+					</script>
+					
+										<script>
+						var exdate=new Date();
+						exdate.setDate(exdate.getDate() + 365);    
+						wpls_landing = 1;
+						var c_value=wpls_landing + "; expires="+exdate.toUTCString()+"; path=/";
+						document.cookie= 'wpls_landing=' + c_value;
+					
+					</script>
+					
+								<script>
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate() + 365);    
+		var screen_width =  screen.width +"x"+ screen.height;  
+		var c_value=screen_width + "; expires="+exdate.toUTCString()+"; path=/";
+		document.cookie= 'wpls_screensize=' + c_value;
+			
+			
+			</script>
+            
+            					<script>
+					document.cookie="wpls_page_c6d013353440260855febee5c7416554=yes";
+					</script>
+					
+										<script>
+						var exdate=new Date();
+						exdate.setDate(exdate.getDate() + 365);    
+						wpls_landing = 1;
+						var c_value=wpls_landing + "; expires="+exdate.toUTCString()+"; path=/";
+						document.cookie= 'wpls_landing=' + c_value;
+					
+					</script>
+					
+					
 
 <div class="fixedDemo">
   <div class="demo">
@@ -188,6 +264,17 @@ img.emoji {
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.but').click(function(){
+      $('.right_slider').toggleClass('active');
+      $('.but').toggleClass('sun');
+    });
+  });
+</script>
+<div class="but"><i class="fa fa-caret-left" aria-hidden="true"></i></div>
+
 <div class="right_slider">
     <ul>
         <li>
@@ -283,11 +370,14 @@ $w.on("scroll.unveil resize.unveil lookup.unveil",unveil);unveil();return this;}
 </form>
 <div class="SiteMenu">
   <div class="container">
-            <div class="nav navbar-nav menu-master"><ul>
+        
+    <div class="nav navbar-nav menu-master"><ul>
 <li class="page_item page-item-51 current_page_item"><a href="./index.html" aria-current="page">#51 (no title)</a></li>
+<li class="page_item page-item-75"><a href="./../mdtf-results-page/index.html">MDTF Results Page</a></li>
 <li class="page_item page-item-2"><a href="./../sample-page/index.html">Sample Page</a></li>
 </ul></div>
     
+
 
 
   </div>
@@ -324,13 +414,26 @@ $w.on("scroll.unveil resize.unveil lookup.unveil",unveil);unveil();return this;}
   <button type="submit">Send</button>
 </p>
 </form>
-            </div>
+<div class="pvc_clear"></div>
+<p class="pvc_stats all " data-element-id="51" style=""><i class="pvc-stats-icon medium" aria-hidden="true"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="chart-bar" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" class="svg-inline--fa fa-chart-bar fa-w-16 fa-2x"><path fill="currentColor" d="M396.8 352h22.4c6.4 0 12.8-6.4 12.8-12.8V108.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v230.4c0 6.4 6.4 12.8 12.8 12.8zm-192 0h22.4c6.4 0 12.8-6.4 12.8-12.8V140.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v198.4c0 6.4 6.4 12.8 12.8 12.8zm96 0h22.4c6.4 0 12.8-6.4 12.8-12.8V204.8c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v134.4c0 6.4 6.4 12.8 12.8 12.8zM496 400H48V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16zm-387.2-48h22.4c6.4 0 12.8-6.4 12.8-12.8v-70.4c0-6.4-6.4-12.8-12.8-12.8h-22.4c-6.4 0-12.8 6.4-12.8 12.8v70.4c0 6.4 6.4 12.8 12.8 12.8z" class=""></path></svg></i> &nbsp;3&nbsp;total views, &nbsp;3&nbsp;views today</p>
+<div class="pvc_clear"></div>
+<style>.stats_block {
+	background: #E8E8E8;
+	border: 1px solid #DCDCDC;
+	font-size: 15px;  padding: 10px 5px; margin: 10px 0px;
+}</style>
+<div class="stats_block">Total Views: 3 , </div>            </div>
 		</div>
 	</div>
 </div>
 <div class="container">
     <div class="honeycombs">
-            </div>
+                                    <div class="comb">
+                    <div class="front-content">
+                        <a href="./../release-year/2017/index.html"><p>2017</p></a>
+                    </div>
+                </div>
+                        </div>
 </div>
 <script>
 	$(document).ready(function() {
@@ -345,6 +448,7 @@ $w.on("scroll.unveil resize.unveil lookup.unveil",unveil);unveil();return this;}
   <div class="container">
         <div class="nav navbar-nav menu-master"><ul>
 <li class="page_item page-item-51 current_page_item"><a href="./index.html" aria-current="page">#51 (no title)</a></li>
+<li class="page_item page-item-75"><a href="./../mdtf-results-page/index.html">MDTF Results Page</a></li>
 <li class="page_item page-item-2"><a href="./../sample-page/index.html">Sample Page</a></li>
 </ul></div>
     
@@ -373,6 +477,17 @@ $w.on("scroll.unveil resize.unveil lookup.unveil",unveil);unveil();return this;}
     </div>
 </div>
 <div style="display:none;"></div>
+    <script type="text/javascript">
+        var templateUrl = '.';
+        var post_id = '51';
+    </script>
+    <script type="text/javascript" id="wp-postviews-cache-js-extra">
+/* <![CDATA[ */
+var viewsCacheL10n = {"admin_ajax_url":".\/wp-admin\/admin-ajax.php","post_id":"51"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../wp-content/plugins/wp-postviews/postviews-cache.js?ver=1.68" id="wp-postviews-cache-js"></script>
 <script type="text/javascript" src="./../wp-includes/js/wp-embed.min.js?ver=5.7" id="wp-embed-js"></script>
+<script type="text/javascript" src="./../wp-content/plugins/srs-simple-hits-counter/js/srs_simple_hits_counter_js.js?ver=5.7" id="srs_simple_hits_counter_js-js"></script>
 
 </body></html>
