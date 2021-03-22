@@ -1,11 +1,28 @@
+@mixin Anims($time) {
+  -webkit-transition: all $time;
+  -moz-transition: all $time;
+  -ms-transition: all $time;
+  -o-transition: all $time;
+  transition: all $time;
+}
+ 
+@mixin Transform($type) {
+  -webkit-transform: $type;
+  -moz-transform: $type;
+  -ms-transform: $type;
+  -o-transform: $type;
+  transform: $type;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400|Dosis:200,300,400);
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html, body {
+html,body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -15,29 +32,24 @@ html, body {
   background-size: cover;
 }
 
+$content-height: 500px; 
+
 .wrap {
   margin: auto;
   padding: 0;
   display: block;
-  position: absolute;
+  position: absolute;  
   width: 100%;
   height: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 0; right: 0; bottom: 0; left: 0;
   background: #fafafa;
   overflow: hidden;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+  @include Anims(0.4s);
 }
 
 .tabs {
   margin: 0;
-  padding: 0;
+  padding: 0;  
   display: block;
   width: 100%;
   height: 100%;
@@ -45,29 +57,24 @@ html, body {
   background: #111;
 }
 
-.tab-height, .button {
-  height: 125px;
-  line-height: 125px;
+.tab-height {
+  height: $content-height / 4;
+  line-height: $content-height / 4;
 }
 
-.tab {
-  display: none;
-}
+.tab {display: none;}
 
 .button {
   margin: 0;
-  padding: 0;
+  padding: 0;  
   display: block;
   position: relative;
   width: 160px;
+  @extend .tab-height;
   text-align: center;
   color: #f0f0f0;
   cursor: pointer;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+  @include Anims(0.4s);
 }
 
 .button:hover {
@@ -99,17 +106,15 @@ html, body {
   position: relative;
   width: 100%;
   height: 30px;
-  font-family: "Open Sans";
-  font-weight: 300;
-  font-size: 1.5em;
+  font: {
+    family: 'Open Sans';
+    weight: 300;
+    size: 1.5em;
+  }
   line-height: 30px;
   text-align: center;
   color: #111;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
+  @include Anims(0.4s);
 }
 
 p {
@@ -119,12 +124,14 @@ p {
   position: relative;
   width: 90%;
   height: auto;
-  font-family: "Open Sans";
-  font-weight: 300;
-  font-size: 1em;
+  font: {
+    family: 'Open Sans';
+    weight: 300;
+    size: 1em;
+  }
   line-height: 20px;
   text-align: center;
-  color: #111;
+  color: #111  
 }
 
 #tab--1:checked ~ #button--1,
@@ -134,10 +141,12 @@ p {
   background: #fafafa;
   color: #111;
 }
-
 #tab--1:checked ~ #display--1,
 #tab--2:checked ~ #display--2,
 #tab--3:checked ~ #display--3,
 #tab--4:checked ~ #display--4 {
   display: block;
 }
+
+
+
