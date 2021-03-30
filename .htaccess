@@ -1,0 +1,5 @@
+ErrorDocument 404 /404-2/
+
+RewriteCond %{QUERY_STRING} \\?s=([^&]+) [NC]
+
+RewriteRule ^$ /search/?q=%1 [NC,R,END]

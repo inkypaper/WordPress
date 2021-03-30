@@ -30,14 +30,14 @@ function getSearchTermFromLocation() {
 function formatResult(result) {
      html = '' +
     '<div class="ss-article">' +
-    '<a href="'+appStaticSearch.siteUrl + result.loaction + '" class="ss-image-link">';
+    '<a href="'+appStaticSearch.siteUrl + result.location + '" class="ss-image-link">';
      if (result.featuredMedia != '') {
          html += '<img src="'+appStaticSearch.siteUrl + result.featuredMedia + '" class="ss-image">';
      }
     html += '</a>'+
     '<div class="ss-text">'+
-    '<h3><a href="' + appStaticSearch.siteUrl + location + '">' + result.title + '</a></h3>'+
-    '<p>' + result.summary + '</p>'+
+    '<h3><a href="'  + location +result.title+ '">'+result.title+'</a></h3>'+
+  
     '</div>'+ // .ss-text
     '</div>'; // .ss-article
 
