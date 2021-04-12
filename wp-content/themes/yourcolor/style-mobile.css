@@ -795,12 +795,12 @@ h2.noThumb {
 .contentMovie:after {
     clear: both
 }
-.container1:before,
-.container1:after {
+.container:before,
+.container:after {
     display: table;
     content: " "
 }
-.container1:after {
+.container:after {
     clear: both
 }
 body {
@@ -1099,7 +1099,7 @@ body .wrapper .vh-page1s-wrapper a:hover {
 .offer_image.shadows.active:before {
     z-index: 1
 }
-.offer_container1 .offer_image.active img {
+.offer_container .offer_image.active img {
     position: relative;
     z-index: 2
 }
@@ -1123,7 +1123,7 @@ body.page1-template-template-front-page1-php .post-thumb-img-wrapper.active.shad
 body.page1-template-template-front-page1-php .post-thumb-img-wrapper.active.shadows:after {
     z-index: 1
 }
-.teaser_grid_container1_carousel .post_carousel_item .post-thumb-img-wrapper.active img {
+.teaser_grid_container_carousel .post_carousel_item .post-thumb-img-wrapper.active img {
     z-index: 2;
     position: relative
 }
@@ -1151,7 +1151,7 @@ body.page1-template-template-front-page1-php .post-thumb-img-wrapper.active.shad
 .vh_wrapper {
     overflow: hidden
 }
-.fullwidthbanner-container1 {
+.fullwidthbanner-container {
     position: absolute
 }
 .vc_row-fluid.front_page1_white.border {
@@ -10287,21 +10287,21 @@ span.button.red > span.text {
     z-index: 20;
     border-bottom: 3px solid #10357B;
 }
-.container1:after {
+.container:after {
     content: '';
     display: table;
     clear: both;
 }
-.container1:before {
+.container:before {
     content: '';
     display: table;
     clear: both;
 }
-.header .container1 {
+.header .container {
     position: relative;
     overflow: hidden;
 }
-.container1 {
+.container {
     margin: 0 auto;
     position: relative;
 }
@@ -12332,7 +12332,7 @@ form#report{
 }
 .breadcrumbs {height: 45px;line-height: 45px;margin-bottom: 1%;position: relative;font-size: 13px;z-index: 10000;background: rgba(0, 0, 0, 0.13);clear: both;font-family: Font Bold , Arial Black;border-bottom: 1px solid rgba(255, 255, 255, 0.11);}
 div#mpbreadcrumbs {}
-.container1Movie {
+.containerMovie {
     display: block;
     position: relative;
     padding: 10px;
@@ -12546,15 +12546,15 @@ a.backToPOost {
     margin-left: -600px;
 }
 
-.fullcontainer1Movie .column > h2 span {
+.fullcontainerMovie .column > h2 span {
     color: #ffffff;
 }
-.fullcontainer1Movie .column > .innerColumn .block{
+.fullcontainerMovie .column > .innerColumn .block{
     width: 210px;
 }
-.fullcontainer1Movie .column > .innerColumn {overflow: hidden;text-align: center;}
+.fullcontainerMovie .column > .innerColumn {overflow: hidden;text-align: center;}
 
-.fullcontainer1Movie .column > .innerColumn > a {
+.fullcontainerMovie .column > .innerColumn > a {
     display: inline-block;
     position: relative;
     width: 233px;
@@ -12566,10 +12566,10 @@ a.backToPOost {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.fullcontainer1Movie .column > .innerColumn > a:hover .Tite {
+.fullcontainerMovie .column > .innerColumn > a:hover .Tite {
     bottom:0;
 }
-.fullcontainer1Movie .column > .innerColumn > a .Tite {
+.fullcontainerMovie .column > .innerColumn > a .Tite {
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -12580,20 +12580,20 @@ a.backToPOost {
     color: white;
     transition: .3s all ease;
 }
-.fullcontainer1Movie .column > .innerColumn > a:hover img {
+.fullcontainerMovie .column > .innerColumn > a:hover img {
     transform: translate(0, -28%);
 }
-.fullcontainer1Movie .column > .innerColumn > a img {
+.fullcontainerMovie .column > .innerColumn > a img {
     width: 100%;
     height: auto;
     min-height: calc(100% + 28%);
     transition: 1s all ease;
 }
-.fullcontainer1Movie .column > h2 a {
+.fullcontainerMovie .column > h2 a {
     color: #F6D063;
     font-size: 20px;
 }
-.fullcontainer1Movie .column > h2 {
+.fullcontainerMovie .column > h2 {
     text-align: center;
     font-family: Font Bold , Arial;
     font-weight: bold;
@@ -12603,16 +12603,16 @@ a.backToPOost {
     box-shadow: 0px 1px 3px rgba(8, 8, 8, 0.47);
     border-radius: 3px;
 }
-.fullcontainer1Movie .column:last-child {}
-.fullcontainer1Movie .column:first-child {
+.fullcontainerMovie .column:last-child {}
+.fullcontainerMovie .column:first-child {
 }
-.fullcontainer1Movie .column {
+.fullcontainerMovie .column {
     padding: 0px px 0px;
 }
-.fullcontainer1Movie > div {
+.fullcontainerMovie > div {
     overflow: hidden;
 }
-.fullcontainer1Movie {
+.fullcontainerMovie {
     background: rgb(128, 20, 62);
     padding: 11px 10px;
 }
@@ -12924,7 +12924,7 @@ a.IMDBButton {
     background: rgb(18, 18, 18);
 }
 
-.MasterCover .container1 {
+.MasterCover .container {
 }
 .MasterCover {
     background: radial-gradient(ellipse at top,rgba(163, 25, 80, 0),#9f184d 89%,#a1184e);
@@ -12942,11 +12942,11 @@ a.IMDBButton {
     background-size: cover;
 }
 
-.postercontainer1 img {
+.postercontainer img {
     width:100%;
     height:100%;
 }
-.postercontainer1:after {
+.postercontainer:after {
     position: absolute;
     top: -30px;
     left: 0;
@@ -12959,11 +12959,11 @@ a.IMDBButton {
     -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
     transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 }
-.postercontainer1:hover:after {
+.postercontainer:hover:after {
     -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
     transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 }
-.postercontainer1 {
+.postercontainer {
     overflow: hidden;
     width: 280px;
     margin: 0 auto 10px;
