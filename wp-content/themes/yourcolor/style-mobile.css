@@ -1830,16 +1830,7 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     box-shadow: 0 5rem 10rem rgba(0, 0, 0, 0.4);
 }
-.demo1__img {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-    top: 3.15rem;
-    width: 41.6rem;
-    height: 53.7rem;
-    -webkit-transform: translateZ(0rem) scale(0.95);
-    transform: translateZ(0rem) scale(0.95);
-}
+
 .demo1__img:before {
     content: "";
     position: absolute;
@@ -10479,6 +10470,7 @@ span.button.red > span.text {
     opacity: 1;
 }
 .Block.active {transform: scale(1);}
+
 .Block:hover {}
 .Block:hover {
     z-index: 1000;
@@ -12786,7 +12778,7 @@ a.IMDBButton {
 
 .sectionsCategories {}
 .sectionsCategories > .section .Block {
-    width: 300px;
+    width: 230px;
     height: 340px;
 }
 .sectionsCategories > .section {

@@ -30,9 +30,7 @@
 		<guid isPermaLink="false">./../index.html?p=1</guid>
 
 					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<div style="width:100%;height:400px;margin:auto;text-align:center;"> 
-
-<div class="wrap">
+										<content:encoded><![CDATA[<div style="width:100%;height:400px;margin:auto;text-align:center;"> <div class="wrap">
 
   <ul class="tabs group">
     <li><a  href="#/one"><i class="material-icons">cloud_download</i>تحميل</a></li>
@@ -40,9 +38,22 @@
     <li><a href="#/three"><i class="material-icons">movie</i>الإعلان</a></li>
    <li><a class="active" href="#/four"><i class="material-icons">apps</i>معلومات</a></li>
 	</ul>
-  <div id="panels">
+ <div id="panels">
     <p id="one"><button class="button button2">تحميل</button></p>
-    <p id="two">Donec tincidunt tortor ut magna mollis sagittis. Mauris eu nibh non purus gravida hendrerit. Donec enim nisi, pretium eu libero sit amet, bibendum sagittis velit. Pellentesque non dapibus leo. Suspendisse ante tellus, volutpat ac leo eget, venenatis rhoncus sem.</p>
+	 
+	 
+	 
+    <p id="two">
+<video controls="" preload="metadata" poster="http://html5multimedia.com/media/elephants-dream.title.jpg" width="422" height="253" __idm_id__="489798657">
+			<source src="http://html5multimedia.com/media/elephants-dream-medium.webm" type="video/webm">
+			<track label="English subtitles" kind="subtitles" srclang="en" src="english-subtitles.vtt" default="">
+		</video>
+
+	 </p>
+	 
+	 
+	 
+	 
     <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi907189785/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
 		<p id="four"> Aenean dapibus eleifend venenatis. Integer et suscipit dui. Nam tellus diam, mattis in ultrices et, feugiat ac libero. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
   </div>
