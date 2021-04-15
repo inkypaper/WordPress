@@ -149,7 +149,7 @@ ul.tabs li a.active {
 
 .button {
   border: none;
-  color: white;
+  color: rgb(255,255,255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -158,7 +158,9 @@ ul.tabs li a.active {
   margin: 4px 2px;
   cursor: pointer;
 }
-.button2 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #9b164b;
+
+} /* Brown  */
 
 
 
