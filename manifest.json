@@ -1,0 +1,13 @@
+{
+  "name": "CityCima",
+  "short_name": "CityCima",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "لمشاهدة احدث الافلام والمسلسلات",
+  "icons": [{
+    "src": "https://www.citycima.tk/wp-content/uploads/2021/03/1236580000.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }]
+}
