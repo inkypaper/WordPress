@@ -5,7 +5,7 @@ $jurl=trim($_GET["jurl"]);
 $raw = file_get_contents($jurl);
 
 //Note, if trickyness like decode detected then display empty.
-if(!preg_match("decode(", $raw)){
+if(empty(preg_match("#decode\\(#i", $raw))) {
 
 //Kill anoying popups.
 $raw=str_replace("alert(","isNull(",$raw);
