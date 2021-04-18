@@ -1,10 +1,10 @@
-      <?php
+  <?php
 
 //Get the raw html.
 $furl=trim($_GET["furl"]);
 $raw = file_get_contents($furl);
 
-$mydomain="https://www.citycima.tk/";
+$mydomain="https://www.citycima.tk/105/index.html";
 
 //Kill anoying popups.
 $raw=str_replace("alert(","isNull(",$raw);
