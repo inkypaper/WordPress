@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; سيما سيتى</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>لمشاهدة احدث الافلام والمسلسلات</description>
+	<lastBuildDate>Tue, 13 Apr 2021 08:47:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>test</title>
+		<link>./../../../91/index.html</link>
+					<comments>./../../../91/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 12 Apr 2021 13:31:52 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=91</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="wrap">
+
+  <ul class="tabs group">
+    <li><a  href="#/one"><i class="material-icons">cloud_download</i>تحميل</a></li>
+    <li><a href="#/two"><i class="material-icons">play_arrow</i>مشاهدة</a></li>
+    <li><a href="#/three"><i class="material-icons">movie</i>الإعلان</a></li>
+   <li><a class="active" href="#/four"><i class="material-icons">apps</i>معلومات</a></li>
+	</ul>
+ <div id="panels">
+    <p id="one"><button class="button button2"><a href="https://www.w3schools.com/">الترجمة</a></button>
+	 
+	 <button class="button button2"><a href="https://www.w3schools.com/">التحميل</a></button>
+	 
+	 
+	 </p>
+	 
+	 
+	 
+    <p id="two">
+
+			<iframe src="https://streamtape.com/e/2oJjVW7g3JuZZpx/" width="320" height="305" allowfullscreen allowtransparency allow="autoplay" scrolling="no" frameborder="0"></iframe>
+	 </p>
+	 
+	 
+	 
+    <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi907189785/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+		<p id="four"><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fwww.citycima.tk%2F1%2Findex.html" alt="Hits"></p>
+  </div>
+</div>
+	
+	
+
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../91/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hello world!</title>
+		<link>./../../../1/index.html</link>
+					<comments>./../../../1/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 26 Mar 2021 15:34:19 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div style="width:100%;height:400px;margin:auto;text-align:center;"> <div class="wrap">
+
+  <ul class="tabs group">
+    <li><a  href="#/one"><i class="material-icons">cloud_download</i>تحميل</a></li>
+    <li><a href="#/two"><i class="material-icons">play_arrow</i>مشاهدة</a></li>
+    <li><a href="#/three"><i class="material-icons">movie</i>الإعلان</a></li>
+   <li><a class="active" href="#/four"><i class="material-icons">apps</i>معلومات</a></li>
+	</ul>
+ <div id="panels">
+    <p id="one"><button class="button button2"><a href="https://www.w3schools.com/">الترجمة</a></button>
+	 
+	 <button class="button button2"><a href="https://www.w3schools.com/">التحميل</a></button>
+	 
+	 
+	 </p>
+	 
+	 
+	 
+    <p id="two">
+
+			<iframe src="https://streamtape.com/e/2oJjVW7g3JuZZpx/" width="320" height="305" allowfullscreen allowtransparency allow="autoplay" scrolling="no" frameborder="0"></iframe>
+	 </p>
+	 
+	 
+	 
+    <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi907189785/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+		<p id="four"><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fwww.citycima.tk%2F1%2Findex.html" alt="Hits"></p>
+  </div>
+</div>
+	
+	
+ </div>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../1/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

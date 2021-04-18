@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ivan Peric &#8211; سيما سيتى</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>لمشاهدة احدث الافلام والمسلسلات</description>
+	<lastBuildDate>Fri, 16 Apr 2021 10:40:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.1</generator>
+	<item>
+		<title>Crisis 2021</title>
+		<link>./../../../105/index.html</link>
+					<comments>./../../../105/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Fri, 16 Apr 2021 09:07:13 +0000</pubDate>
+				<category><![CDATA[افلام]]></category>
+		<category><![CDATA[Drama]]></category>
+		<category><![CDATA[Thriller]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=105</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="wrap">
+
+  <ul class="tabs group">
+    <li><a  href="#/one"><i class="material-icons">cloud_download</i>تحميل</a></li>
+    <li><a href="#/two"><i class="material-icons">play_arrow</i>مشاهدة</a></li>
+    <li><a href="#/three"><i class="material-icons">movie</i>الإعلان</a></li>
+   <li><a class="active" href="#/four"><i class="material-icons">apps</i>معلومات</a></li>
+	</ul>
+ <div id="panels">
+	 
+	 
+		<p  class="normal" id="four">
+		
+		 
+	يتناول العمل قصة ثلاثة شخصيات، تاجر مخدرات مشهور، ومهندس محترف، ودكتور جامعي، تجمعهم الظروف في مغامرة معًا من أجل إنتاج مسكن للآلم لا يحتوي على مواد مخدرة.
+			
+
+	 	 </p>
+	 	 
+	 <p  id="three"> 	<iframe src="https://www.imdb.com/videoembed/vi4066885913/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe></p>
+	 
+	    <p  id="two">
+			<iframe SRC="http://www.citycima.tk/framefilter.php?furl=https://streamtape.com/e/aPR1ldDdDeCz79" width="320" height="305" allowfullscreen allowtransparency allow="autoplay" scrolling="no" frameborder="0"></iframe>
+	
+			</p>
+    <p  id="one">
+	 
+	 <button class="button button2"><a href="https://file-link.net/234732/crisis" target="_blank" >التحميل</a></button> <br />
+			
+			<button class="button button2"><a href="https://go.menjelajahi.com/5f8XyuUI" target="_blank" >الترجمة</a></button><br />
+	
+	 </p>
+	 
+	 
+	 
+ 
+	 
+	 
+
+  </div>
+</div>
+	
+	
+
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../105/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -2,7 +2,7 @@
   "name": "CityCima",
   "short_name": "CityCima",
   "start_url": ".",
-  "display": "standalone",
+  "display": "Fullscreen",
   "background_color": "#fff",
   "description": "لمشاهدة احدث الافلام والمسلسلات",
   "icons": [{
