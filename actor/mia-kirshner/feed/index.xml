@@ -53,12 +53,9 @@
 	 	 
 	 <p  id="three"> 	<iframe src="https://www.imdb.com/videoembed/vi4066885913/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe></p>
 	 
-	    <p  id="two"><iframe src="https://streamtape.com/e/aPR1ldDdDeCz79" width="320" height="305" allowfullscreen allowtransparency allow="autoplay" scrolling="no" frameborder="0">
+	    <p  id="two">
+			<iframe SRC="https://streamtape.com/e/aPR1ldDdDeCz79/" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"  width="320" height="305" allowfullscreen seamless="yes" allowtransparency allow="autoplay" scrolling="no" frameborder="0">
 			</iframe>
-				
-			
-
-	
 	
 			</p>
     <p  id="one">

@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>لمشاهدة احدث الافلام والمسلسلات</description>
-	<lastBuildDate>Sun, 18 Apr 2021 16:21:30 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 18 Apr 2021 22:58:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,71 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
+		<title>Vanquish</title>
+		<link>./../128/index.html</link>
+					<comments>./../128/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 18 Apr 2021 22:58:28 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=128</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<div class="wrap">
+
+  <ul class="tabs group">
+    <li><a  href="#/one"><i class="material-icons">cloud_download</i>تحميل</a></li>
+    <li><a href="#/two"><i class="material-icons">play_arrow</i>مشاهدة</a></li>
+    <li><a href="#/three"><i class="material-icons">movie</i>الإعلان</a></li>
+   <li><a class="active" href="#/four"><i class="material-icons">apps</i>معلومات</a></li>
+	</ul>
+ <div id="panels">
+    <p  id="one"> <button class="button button2"><a href="https://file-link.net/234732/held" target="_blank" >التحميل</a></button> <br /><button class="button button2"><a href="https://file-link.net/234732/herdsub" target="_blank" >الترجمة</a></button><br />
+	 
+	
+	 </p>
+	 
+	 
+	 
+    <p id="two">
+<iframe   width: 320px
+  height: 220px src="https://www.citycima.tk/player.html?v=dyQVQA9PO"    frameborder="0" scrolling="0" allowfullscreen></iframe>
+		
+			</p>
+	 
+	 
+	 
+	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi2579349529/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+	
+	 
+	 
+	 
+	 
+	 
+	 <p   id="four">
+		 <video class="containerp"  id="player" controls preload="metadata" >
+		 
+				 <source src="https://storage.googleapis.com/adroit-braid-310305/3URCZ2_U81KO/23m_1618718670_339926.mp4" type="video/mp4" >
+
+		
+<track kind="captions" label="Arabic" srclang="ar" src="https://www.citycima.tk/sub.vtt" default>
+	</video>
+		
+
+	 </p>
+  </div>
+</div>
+	
+	
+
+]]></content:encoded>
+					
+					<wfw:commentRss>./../128/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Held 2020  Copy</title>
 		<link>./../118/index.html</link>
 					<comments>./../118/index.html#respond</comments>
@@ -224,12 +289,9 @@
 	 	 
 	 <p  id="three"> 	<iframe src="https://www.imdb.com/videoembed/vi4066885913/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe></p>
 	 
-	    <p  id="two"><iframe src="https://streamtape.com/e/aPR1ldDdDeCz79" width="320" height="305" allowfullscreen allowtransparency allow="autoplay" scrolling="no" frameborder="0">
+	    <p  id="two">
+			<iframe SRC="https://streamtape.com/e/aPR1ldDdDeCz79/" sandbox="allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"  width="320" height="305" allowfullscreen seamless="yes" allowtransparency allow="autoplay" scrolling="no" frameborder="0">
 			</iframe>
-				
-			
-
-	
 	
 			</p>
     <p  id="one">

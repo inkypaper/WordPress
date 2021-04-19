@@ -86,7 +86,7 @@ ul.tabs li a.active {
 
 #panels {
   width: 320px;
-  height: 300px;
+  height: 220px;
   margin: 0 auto;
   background: #4b2e52;
   -webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
@@ -101,30 +101,20 @@ ul.tabs li a.active {
 }
 
 #panels p {
- width: 320px;
-  height: 300px;
-		font-family: Font, Arial;
-  padding: 60px 0px 60px;
-
-  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 0px;
   color: #ffffff;
-  
-	line-height: 26px;
-  font-size: 15px;
-	
-	
-	
-
- 
+  line-height: 26px;
+  font-size: 18px;
+  margin: 0;
 }
 
+#one { display: none; }
 
-#one { display: block; }
+#two { display: none; }
 
-#two { display: block;  }
-
-#three { display: block; }
-	#four { display: block; }
+#three { display: none; }
+	#four { }
 
 
 
@@ -176,16 +166,14 @@ background-color: #9b164b;
 
 } /* Brown  */
 
-p.normal {
- 
-		font-weight: bold;
-direction:rtl;
-	    display: block; 
-	text-align: -webkit-center;
 
-
-
+.containerp {
+margin: 0px auto;
+	max-width: 500px;
+	 width: 320px;
+  height: 220px;
 }
+
 
 
 
