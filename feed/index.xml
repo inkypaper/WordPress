@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>لمشاهدة احدث الافلام والمسلسلات</description>
-	<lastBuildDate>Sun, 18 Apr 2021 22:58:28 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 19 Apr 2021 15:04:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,26 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
+		<title>V T</title>
+		<link>./../130/index.html</link>
+					<comments>./../130/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 19 Apr 2021 15:03:57 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../index.html?p=130</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><video id="player" class="containerp" preload="metadata" autoplay="autoplay" controls="controls" width="300" height="150"><source src="https://cdn-112.anonfiles.com/78f1Yar2u2/95140394-1618844916/22m_1618815999_339926.mp4" type="video/mp4" /><track kind="captions" label="Arabic" srclang="ar" type="text/vtt" src="https://cdn-124.anonfiles.com/7bh6Y2reuf/4ae1f031-1618845153/[SubtitleTools.com]%20Vanquish_2021_Arabic-ELSUBTITLE.COM-ST_59937780.vtt" default /></video></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../130/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://cdn-112.anonfiles.com/78f1Yar2u2/95140394-1618844916/22m_1618815999_339926.mp4" length="2896773459" type="video/mp4" />
+
+			</item>
+		<item>
 		<title>Vanquish</title>
 		<link>./../128/index.html</link>
 					<comments>./../128/index.html#respond</comments>
@@ -62,13 +82,13 @@
 	 
 	 
 	 <p   id="four">
-		 <video class="containerp"  id="player" controls preload="metadata" >
-		 
-				 <source src="https://storage.googleapis.com/adroit-braid-310305/3URCZ2_U81KO/23m_1618718670_339926.mp4" type="video/mp4" >
+		<video controls crossorigin playsinline class="cotainerp" width="300" height="150">			<source src="https://ia601500.us.archive.org/27/items/22m-1618848237-339926/22m_1618848237_339926.mp4" type="video/mp4" >
 
-		
-<track kind="captions" label="Arabic" srclang="ar" src="https://www.citycima.tk/sub.vtt" default>
-	</video>
+<track kind="captions"  src="https://archive.org/download/subtitle-tools.com-vanquish-2021-arabic-elsubtitle.-com-st-59937780-4-1/%5BSubtitleTools.com%5D%20Vanquish_2021_Arabic-ELSUB"
+					default>
+</video>
+<script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
+<script src='https://unpkg.com/plyr@3'></script> <script src='https://www.citycima.tk/player/script.js'></script>
 		
 
 	 </p>
