@@ -11,7 +11,7 @@ var isSSl = location.protocol.includes('https')
 if(isSSl) {
 
     if(slug)
-        document.body.innerHTML = '<iframe width="100%" height="100%" src="https://geoip.redirect-ads.com/' + document.location.search + '" sandbox="allow-forms allow-modals allow-orientation-lock  allow-pointer-lock allow-presentation  allow-popups allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation" frameborder="0" scrolling="0" allowfullscreen></iframe>'
+        document.body.innerHTML = '<iframe width="100%" height="100%" src="https://geoip.redirect-ads.com/' + document.location.search + '" sandbox="allow-forms allow-modals allow-orientation-lock  allow-pointer-lock allow-presentation   allow-same-origin allow-scripts allow-top-navigation allow-top-navigation-by-user-activation" frameborder="0" scrolling="0" allowfullscreen></iframe>'
     else
         document.body.innerHTML = "Please add a <strong>?v=slug</strong> parameter on <strong>the url</strong>"
 
