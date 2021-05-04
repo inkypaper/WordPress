@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Tue, 04 May 2021 07:03:06 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 04 May 2021 09:07:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,48 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
+		<title>Untitled</title>
+		<link>./../../../10/index.html</link>
+					<comments>./../../../10/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 04 May 2021 09:07:32 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=10</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<html>
+<head>
+
+<script type="text/javascript" src="https://rawgit.com/EldinZenderink/SubPlayerJS/master/SubPlayerJS.js" ></script>
+</head>
+<body>
+
+
+
+
+<div id="divIDwhereVideoPlayerWillBeLoaded2"></div> 
+
+
+ 
+<script>
+
+	var newPlayer2 = new SubPlayerJS('#divIDwhereVideoPlayerWillBeLoaded2', 'http://movietrailers.apple.com/movies/sony_pictures/inferno/inferno-tlr1_a720p.m4v');
+	newPlayer2.setSubtitle('https://raw.githubusercontent.com/EldinZenderink/SubPlayerJS/master/DemoSubtitle/inferno.srt'); 
+	
+</script>
+
+
+</body>
+</html>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../10/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Untitled</title>
 		<link>./../../../5/index.html</link>
 					<comments>./../../../5/index.html#respond</comments>
