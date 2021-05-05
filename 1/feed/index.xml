@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	تعليقات لموقع سيما سيتى	</title>
+	التعليقات على: أهلاً بالعالم !	</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../index.html</link>
+	<link>./../index.html</link>
 	<description>موقع ووردبريس عربي آخر</description>
 	<lastBuildDate>Tue, 04 May 2021 17:48:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,8 +19,8 @@
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
 		<title>
-		تعليق على أهلاً بالعالم ! بواسطة مُعلِق ووردبريس		</title>
-		<link>./../../1/index.html#comment-1</link>
+		بواسطة: مُعلِق ووردبريس		</title>
+		<link>./../index.html#comment-1</link>
 
 		<dc:creator><![CDATA[مُعلِق ووردبريس]]></dc:creator>
 		<pubDate>Tue, 04 May 2021 17:48:08 +0000</pubDate>

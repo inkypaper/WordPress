@@ -8,53 +8,137 @@
 	>
 
 <channel>
-	<title>Rural Damsel</title>
+	<title>سيما سيتى</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
-	<description>Just another WordPress site</description>
-	<lastBuildDate>Wed, 05 May 2021 18:01:52 +0000</lastBuildDate>
-	<language>en-US</language>
+	<description>موقع ووردبريس عربي آخر</description>
+	<lastBuildDate>Wed, 05 May 2021 19:40:12 +0000</lastBuildDate>
+	<language>ar</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
-		<title>Untitled</title>
-		<link>./../2021/05/05/11/index.html</link>
-					<comments>./../2021/05/05/11/index.html#respond</comments>
+		<title>PLAYR TEST</title>
+		<link>./../15/index.html</link>
+					<comments>./../15/index.html#respond</comments>
 		
-		<dc:creator><![CDATA[demo]]></dc:creator>
-		<pubDate>Wed, 05 May 2021 18:01:52 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 05 May 2021 19:40:00 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
+		<guid isPermaLink="false">./../index.html?p=15</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video"><track kind="subtitles" srclang="ar" src="vault.vtt" /><track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default=""></video></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../15/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" length="0" type="video/mp4" />
+
+			</item>
+		<item>
+		<title></title>
+		<link>./../11/index.html</link>
+					<comments>./../11/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Wed, 05 May 2021 13:16:01 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
 		<guid isPermaLink="false">./../index.html?p=11</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-table"><table><tbody><tr><td><br><div class="Elite_video_player" id="1" data-options="{&quot;id&quot;:&quot;1&quot;,&quot;instanceName&quot;:&quot;Player 1&quot;,&quot;videos&quot;:[{&quot;videoType&quot;:&quot;HTML5&quot;,&quot;title&quot;:&quot;title&quot;,&quot;description&quot;:&quot;description&quot;,&quot;info&quot;:&quot;info&quot;,&quot;thumbImg&quot;:&quot;thumbImg&quot;,&quot;mp4HD&quot;:&quot;https:\/\/archive.org\/download\/waydown_202105\/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D\/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4&quot;,&quot;mp4SD&quot;:&quot;mp4SD&quot;,&quot;mp4VideoThumbnails_vtt&quot;:&quot;https:\/\/archive.org\/download\/subtitle-tools.com-the.-vault.-2021\/%5BSubtitleTools.com%5D%20The.Vault.2021.vtt&quot;,&quot;mp4VideoThumbnails_img&quot;:&quot;mp4VideoThumbnails_img&quot;,&quot;ccUrl&quot;:&quot;.\/wp-content\/uploads\/2021\/05\/SubtitleTools.com-The.Vault_.2021.vtt&quot;,&quot;enable_mp4_download&quot;:&quot;no&quot;,&quot;prerollAD&quot;:&quot;no&quot;,&quot;prerollGotoLink&quot;:&quot;prerollGotoLink&quot;,&quot;preroll_mp4&quot;:&quot;preroll_mp4&quot;,&quot;prerollSkipTimer&quot;:&quot;prerollSkipTimer&quot;,&quot;midrollAD&quot;:&quot;no&quot;,&quot;midrollAD_displayTime&quot;:&quot;midrollAD_displayTime&quot;,&quot;midrollGotoLink&quot;:&quot;midrollGotoLink&quot;,&quot;midroll_mp4&quot;:&quot;midroll_mp4&quot;,&quot;midrollSkipTimer&quot;:&quot;midrollSkipTimer&quot;,&quot;postrollAD&quot;:&quot;no&quot;,&quot;postrollGotoLink&quot;:&quot;postrollGotoLink&quot;,&quot;postroll_mp4&quot;:&quot;postroll_mp4&quot;,&quot;postrollSkipTimer&quot;:&quot;postrollSkipTimer&quot;,&quot;popupAdShow&quot;:&quot;no&quot;,&quot;popupImg&quot;:&quot;popupImg&quot;,&quot;popupAdStartTime&quot;:&quot;popupAdStartTime&quot;,&quot;popupAdEndTime&quot;:&quot;popupAdEndTime&quot;,&quot;popupAdGoToLink&quot;:&quot;popupAdGoToLink&quot;}],&quot;googleAnalyticsTrackingCode&quot;:&quot;&quot;,&quot;instanceTheme&quot;:&quot;dark&quot;,&quot;playerLayout&quot;:&quot;fitToContainer&quot;,&quot;videoPlayerWidth&quot;:&quot;1006&quot;,&quot;videoPlayerHeight&quot;:&quot;420&quot;,&quot;videoRatio&quot;:&quot;1.7777777777777777&quot;,&quot;videoRatioStretch&quot;:&quot;false&quot;,&quot;iOSPlaysinline&quot;:&quot;true&quot;,&quot;floatPlayerOutsideViewport&quot;:&quot;false&quot;,&quot;pauseStickyOutsideViewport&quot;:&quot;false&quot;,&quot;videoPlayerShadow&quot;:&quot;effect1&quot;,&quot;colorAccent&quot;:&quot;#cc181e&quot;,&quot;posterImg&quot;:&quot;&quot;,&quot;posterImgOnVideoFinish&quot;:&quot;&quot;,&quot;allowSkipAd&quot;:&quot;true&quot;,&quot;showAdvertiserName&quot;:&quot;true&quot;,&quot;advertiserName&quot;:&quot;visitAdvertiser.com&quot;,&quot;lightBox&quot;:&quot;false&quot;,&quot;lightBoxAutoplay&quot;:&quot;false&quot;,&quot;lightBoxThumbnail&quot;:&quot;&quot;,&quot;lightBoxThumbnailWidth&quot;:&quot;400&quot;,&quot;lightBoxThumbnailHeight&quot;:&quot;220&quot;,&quot;lightBoxCloseOnOutsideClick&quot;:&quot;true&quot;,&quot;onFinish&quot;:&quot;Play next video&quot;,&quot;autoplay&quot;:&quot;false&quot;,&quot;loadRandomVideoOnStart&quot;:&quot;No&quot;,&quot;shuffle&quot;:&quot;No&quot;,&quot;playlist&quot;:&quot;Right playlist&quot;,&quot;playlistShowOnlyThumbnails&quot;:&quot;false&quot;,&quot;playlistOrder&quot;:&quot;&quot;,&quot;playlistBehaviourOnPageload&quot;:&quot;opened (default)&quot;,&quot;playlistScrollType&quot;:&quot;light&quot;,&quot;ccShowOnHTML5Videos&quot;:&quot;true&quot;,&quot;ccShowOnVideoLoad&quot;:&quot;true&quot;,&quot;ccBtnOpenedTooltipTxt&quot;:&quot;Hide captions&quot;,&quot;ccBtnClosedTooltipTxt&quot;:&quot;Show captions&quot;,&quot;HTML5VideoQuality&quot;:&quot;HD&quot;,&quot;HTML5videoThumbnails&quot;:&quot;live&quot;,&quot;preloadSelfHosted&quot;:&quot;none&quot;,&quot;hideVideoSource&quot;:&quot;true&quot;,&quot;rightClickMenu&quot;:&quot;false&quot;,&quot;youtubeControls&quot;:&quot;custom controls&quot;,&quot;youtubeSkin&quot;:&quot;dark&quot;,&quot;youtubeColor&quot;:&quot;red&quot;,&quot;youtubeQuality&quot;:&quot;default&quot;,&quot;youtubeShowRelatedVideos&quot;:&quot;Yes&quot;,&quot;vimeoColor&quot;:&quot;#00adef&quot;,&quot;showGlobalPrerollAds&quot;:&quot;false&quot;,&quot;globalPrerollAds&quot;:&quot;url1;url2;url3;url4;url5&quot;,&quot;globalPrerollAdsSkipTimer&quot;:&quot;5&quot;,&quot;globalPrerollAdsGotoLink&quot;:&quot;http:\/\/codecanyon.net\/&quot;,&quot;nowPlayingText&quot;:&quot;Yes&quot;,&quot;rewindShow&quot;:&quot;Yes&quot;,&quot;qualityShow&quot;:&quot;Yes&quot;,&quot;infoShow&quot;:&quot;Yes&quot;,&quot;shareShow&quot;:&quot;Yes&quot;,&quot;facebookShow&quot;:&quot;Yes&quot;,&quot;twitterShow&quot;:&quot;Yes&quot;,&quot;facebookShareName&quot;:&quot;Elite video player&quot;,&quot;facebookShareLink&quot;:&quot;http:\/\/codecanyon.net\/item\/elite-video-player-wordpress-plugin\/10496434&quot;,&quot;facebookShareDescription&quot;:&quot;Elite Video Player is stunning, modern, responsive, fully customisable high-end video player for WordPress that support advertising and the most popular video platforms like YouTube, Vimeo or self-hosting videos (mp4).&quot;,&quot;facebookSharePicture&quot;:&quot;&quot;,&quot;twitterText&quot;:&quot;Elite video player&quot;,&quot;twitterLink&quot;:&quot;http:\/\/codecanyon.net\/item\/elite-video-player-wordpress-plugin\/10496434&quot;,&quot;twitterHashtags&quot;:&quot;wordpressvideoplayer&quot;,&quot;twitterVia&quot;:&quot;Creative media&quot;,&quot;embedShow&quot;:&quot;Yes&quot;,&quot;embedCodeSrc&quot;:&quot;http:\/\/yourwebsite.com\/embed\/index.html&quot;,&quot;embedCodeW&quot;:&quot;746&quot;,&quot;embedCodeH&quot;:&quot;420&quot;,&quot;embedShareLink&quot;:&quot;http:\/\/codecanyon.net\/&quot;,&quot;showAllControls&quot;:&quot;true&quot;,&quot;autohideControls&quot;:&quot;2&quot;,&quot;hideControlsOnMouseOut&quot;:&quot;No&quot;,&quot;logoShow&quot;:&quot;Yes&quot;,&quot;logoPath&quot;:&quot;&quot;,&quot;logoPosition&quot;:&quot;bottom-right&quot;,&quot;logoClickable&quot;:&quot;Yes&quot;,&quot;logoGoToLink&quot;:&quot;http:\/\/codecanyon.net\/&quot;,&quot;advertisementTitle&quot;:&quot;Advertisement&quot;,&quot;skipAdvertisementText&quot;:&quot;Skip advertisement&quot;,&quot;skipAdText&quot;:&quot;You can skip this ad in&quot;,&quot;playBtnTooltipTxt&quot;:&quot;Play&quot;,&quot;pauseBtnTooltipTxt&quot;:&quot;Pause&quot;,&quot;rewindBtnTooltipTxt&quot;:&quot;Rewind&quot;,&quot;downloadVideoBtnTooltipTxt&quot;:&quot;Download video&quot;,&quot;qualityBtnOpenedTooltipTxt&quot;:&quot;Close settings&quot;,&quot;qualityBtnClosedTooltipTxt&quot;:&quot;Settings&quot;,&quot;muteBtnTooltipTxt&quot;:&quot;Mute&quot;,&quot;unmuteBtnTooltipTxt&quot;:&quot;Unmute&quot;,&quot;mutedNotificationText&quot;:&quot;Video has no sound&quot;,&quot;fullscreenBtnTooltipTxt&quot;:&quot;Fullscreen&quot;,&quot;exitFullscreenBtnTooltipTxt&quot;:&quot;Exit fullscreen&quot;,&quot;infoBtnTooltipTxt&quot;:&quot;Show info&quot;,&quot;embedBtnTooltipTxt&quot;:&quot;Embed&quot;,&quot;shareBtnTooltipTxt&quot;:&quot;Share&quot;,&quot;volumeTooltipTxt&quot;:&quot;Volume&quot;,&quot;playlistBtnClosedTooltipTxt&quot;:&quot;Show playlist&quot;,&quot;playlistBtnOpenedTooltipTxt&quot;:&quot;Hide playlist&quot;,&quot;facebookBtnTooltipTxt&quot;:&quot;Share on Facebook&quot;,&quot;twitterBtnTooltipTxt&quot;:&quot;Share on Twitter&quot;,&quot;lastBtnTooltipTxt&quot;:&quot;Go to last video&quot;,&quot;firstBtnTooltipTxt&quot;:&quot;Go to first video&quot;,&quot;nextBtnTooltipTxt&quot;:&quot;Play next video&quot;,&quot;previousBtnTooltipTxt&quot;:&quot;Play previous video&quot;,&quot;shuffleBtnOnTooltipTxt&quot;:&quot;Shuffle on&quot;,&quot;shuffleBtnOffTooltipTxt&quot;:&quot;Shuffle off&quot;,&quot;nowPlayingTooltipTxt&quot;:&quot;NOW PLAYING&quot;,&quot;embedWindowTitle1&quot;:&quot;SHARE THIS PLAYER:&quot;,&quot;embedWindowTitle2&quot;:&quot;EMBED THIS VIDEO IN YOUR SITE:&quot;,&quot;embedWindowTitle3&quot;:&quot;SHARE LINK TO THIS PLAYER:&quot;,&quot;videoType&quot;:&quot;HTML5 (self-hosted)&quot;,&quot;action&quot;:&quot;elite_save&quot;,&quot;security&quot;:&quot;undefined&quot;,&quot;status&quot;:&quot;published&quot;,&quot;rootFolder&quot;:&quot;.\/wp-content\/plugins\/Elite-video-player\/&quot;}"></div></td></tr></tbody></table></figure>
+<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar"/></video></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/05/05/11/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../11/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		<enclosure url="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" length="0" type="video/mp4" />
+
+			</item>
+		<item>
+		<title></title>
+		<link>./../8/index.html</link>
+					<comments>./../8/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 04 May 2021 18:35:00 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
+		<guid isPermaLink="false">./../index.html?p=8</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p>	  
+
+
+<div class="wrap">
+
+  <ul class="tabs group">
+		<li> <a href="#/one"> <i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
+		<li><a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
+		<li><a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
+<li><a class="active" href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
+	</ul>
+ <div id="panels">
+
+	     <p id="one"> <button class="button button2"><a href="https://file-link.net/234732/held" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">التحميل</a></button> <br><button class="button button2"><a href="https://file-link.net/234732/herdsub" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">الترجمة</a></button><br>
+	 
+	
+	 </p>
+	 
+	 
+	 
+    <p id="two">
+<iframe width: height: src="https://www.citycima.tk/player.html?v=dyQVQA9PO" frameborder="0" scrolling="0" allowfullscreen></iframe>
+		
+			</p>
+	 
+	 
+	 
+	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi2579349529/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+	
+	 
+	 
+	 
+	 
+	 <p id="four" >
+
+<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video></figure>
+				
+	 </p>
+  </div>
+</div>
+	
+	
+
+        </div>
+</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../8/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Hello world!</title>
-		<link>./../2021/05/05/hello-world/index.html</link>
-					<comments>./../2021/05/05/hello-world/index.html#comments</comments>
+		<title>أهلاً بالعالم !</title>
+		<link>./../1/index.html</link>
+					<comments>./../1/index.html#comments</comments>
 		
-		<dc:creator><![CDATA[demo]]></dc:creator>
-		<pubDate>Wed, 05 May 2021 17:23:34 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 04 May 2021 17:48:08 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
 		<guid isPermaLink="false">./../index.html?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+					<description><![CDATA[مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!]]></description>
 										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../2021/05/05/hello-world/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../1/feed/index.html</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
