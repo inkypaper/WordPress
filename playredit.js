@@ -105,8 +105,6 @@ function Playr(v_id, v_el){
 					'<ul class="playr_cc_tracks" id="playr_cc_tracks_'+this.video_id+'">'+
 						'<li class="playr_menu_title">Subtitles &amp; Captions</li>'+
 						
-							
-						'</li>'+
 					'</ul>'+
 				'</li>'+
 				'<li><button class="playr_fullscreen_btn" id="playr_fullscreen_btn_'+this.video_id+'" tabindex="0"><img src="'+this.base64images.fullscreen_control+'" alt="fullscreen" /></button></li>'+
