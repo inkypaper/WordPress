@@ -77,10 +77,15 @@
 <div class="wrap">
 
   <ul class="tabs group">
-		<li> <a href="#/one"> <i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
-		<li><a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
-		<li><a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
-<li><a class="active" href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
+		<li> <a href="#/one">  
+			
+			<i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
+		<li>
+<a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
+		<li>
+<a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
+<li>
+<a class="active" href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
 	</ul>
  <div id="panels">
 
@@ -106,7 +111,7 @@
 	 
 	 <p id="four" >
 
-<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video></figure>
+<video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video>
 				
 	 </p>
   </div>
