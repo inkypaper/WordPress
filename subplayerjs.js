@@ -43,7 +43,9 @@ class SubPlayerJS {
         if (!$("link[href='http://fonts.googleapis.com/icon?family=Material+Icons']").length) {
             loadjscssfile("http://fonts.googleapis.com/icon?family=Material+Icons", "css");
         }
-       
+        if (!$("link[href='https://www.citycima.tk/subplayerjs.css']").length) {
+            loadjscssfile("https://www.citycima.tk/subplayerjs.css", "css");
+        }
         if (!$("link[href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css']").length) {
             loadjscssfile("https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css", "css");
         }
@@ -271,7 +273,8 @@ class SubPlayerJS {
 
         if (!this.videoPlayerLoaded || this.previousVidHeight != h || this.previousVidWidth != w) {
 
-            $(this.div).html(
+            $(this.div).html('<div class="outer-container-SPJS " id="outerContainer_' + videoid.toString() + '">\
+                            <div class="inner-container-SPJS " id="innerContainer_' + videoid.toString() + '">\
                                 <div class="video-overlay-SPJS" id="subtitle_' + videoid.toString() + '"><br /></div>\
                                 <div style="min-width: 100%;" class="control-SPJS" id="controlDiv_' + videoid.toString() + '"></div>\
                                 <video id="SubPlayerVideo_' + videoid.toString() + '" width="' + vidwidth + '" height="' + vidheight + '">\
