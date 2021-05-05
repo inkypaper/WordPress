@@ -109,9 +109,9 @@
 	 
 	 
 	 
-	 <p id="four" >
+	 <p class= containerp id="four" >
 
-<video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video>
+<video width="320" controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video>
 				
 	 </p>
   </div>
