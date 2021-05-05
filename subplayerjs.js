@@ -275,11 +275,7 @@ class SubPlayerJS {
 
             $(this.div).html('<div class="outer-container-SPJS " id="outerContainer_' + videoid.toString() + '">\
                             <div class="inner-container-SPJS " id="innerContainer_' + videoid.toString() + '">\
-                                <div class="video-overlay-SPJS" id="subtitle_' + videoid.toString() + '"><br /></div>\
-                                <div style="min-width: 100%;" class="control-SPJS" id="controlDiv_' + videoid.toString() + '"></div>\
-                                <video id="SubPlayerVideo_' + videoid.toString() + '" width="' + vidwidth + '" height="' + vidheight + '">\
-                                <source id="videoSource_' + videoid.toString() + '" src="">\
-                                    Your browser does not support HTML5 video.\
+                              
                                 </video>\
                             </div>\
                         </div>');
