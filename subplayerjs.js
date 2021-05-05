@@ -271,8 +271,7 @@ class SubPlayerJS {
 
         if (!this.videoPlayerLoaded || this.previousVidHeight != h || this.previousVidWidth != w) {
 
-            $(this.div).html('<div class="outer-container-SPJS " id="outerContainer_' + videoid.toString() + '">\
-                            <div class="inner-container-SPJS " id="innerContainer_' + videoid.toString() + '">\
+            $(this.div).html(
                                 <div class="video-overlay-SPJS" id="subtitle_' + videoid.toString() + '"><br /></div>\
                                 <div style="min-width: 100%;" class="control-SPJS" id="controlDiv_' + videoid.toString() + '"></div>\
                                 <video id="SubPlayerVideo_' + videoid.toString() + '" width="' + vidwidth + '" height="' + vidheight + '">\
