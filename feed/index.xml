@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>موقع ووردبريس عربي آخر</description>
-	<lastBuildDate>Wed, 05 May 2021 19:40:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 May 2021 20:43:44 +0000</lastBuildDate>
 	<language>ar</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -30,7 +30,7 @@
 		<guid isPermaLink="false">./../index.html?p=15</guid>
 
 					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<p><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video"><track kind="subtitles" srclang="ar" src="vault.vtt" /><track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default=""></video></p>
+										<content:encoded><![CDATA[<p><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video"><track kind="subtitles" srclang="ar" src="vault.vtt" /><track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default /></video></p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../15/feed/index.html</wfw:commentRss>
