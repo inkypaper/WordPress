@@ -8,93 +8,114 @@
 	>
 
 <channel>
-	<title>سيتى سيما</title>
+	<title>سيما سيتى</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
-	<description>Just another WordPress site</description>
-	<lastBuildDate>Tue, 04 May 2021 09:07:32 +0000</lastBuildDate>
-	<language>en-US</language>
+	<description>موقع ووردبريس عربي آخر</description>
+	<lastBuildDate>Wed, 05 May 2021 13:16:05 +0000</lastBuildDate>
+	<language>ar</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
-		<title>Untitled</title>
-		<link>./../10/index.html</link>
-					<comments>./../10/index.html#respond</comments>
+		<title></title>
+		<link>./../11/index.html</link>
+					<comments>./../11/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Tue, 04 May 2021 09:07:32 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../index.html?p=10</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<html>
-<head>
-
-<script type="text/javascript" src="https://rawgit.com/EldinZenderink/SubPlayerJS/master/SubPlayerJS.js" ></script>
-</head>
-<body>
-
-
-
-
-<div id="divIDwhereVideoPlayerWillBeLoaded2"></div> 
-
-
- 
-<script>
-
-	var newPlayer2 = new SubPlayerJS('#divIDwhereVideoPlayerWillBeLoaded2', 'http://movietrailers.apple.com/movies/sony_pictures/inferno/inferno-tlr1_a720p.m4v');
-	newPlayer2.setSubtitle('https://raw.githubusercontent.com/EldinZenderink/SubPlayerJS/master/DemoSubtitle/inferno.srt'); 
-	
-</script>
-
-
-</body>
-</html>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../10/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Untitled</title>
-		<link>./../5/index.html</link>
-					<comments>./../5/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Tue, 04 May 2021 07:03:06 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../index.html?p=5</guid>
+		<pubDate>Wed, 05 May 2021 13:16:01 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
+		<guid isPermaLink="false">./../index.html?p=11</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-video"><video controls src="https://ia601500.us.archive.org/27/items/22m-1618848237-339926/22m_1618848237_339926.mp4"><track src="./../wp-content/uploads/2021/05/vanquish.vtt" label="Arabic" srclang="ar"/></video></figure>
+<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar"/></video></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>./../5/feed/index.html</wfw:commentRss>
+					<wfw:commentRss>./../11/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
-		<enclosure url="https://ia601500.us.archive.org/27/items/22m-1618848237-339926/22m_1618848237_339926.mp4" length="2896773459" type="video/mp4" />
+		<enclosure url="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" length="0" type="video/mp4" />
 
 			</item>
 		<item>
-		<title>Hello world!</title>
+		<title></title>
+		<link>./../8/index.html</link>
+					<comments>./../8/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 04 May 2021 18:35:00 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
+		<guid isPermaLink="false">./../index.html?p=8</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p>	  
+
+
+<div class="wrap">
+
+  <ul class="tabs group">
+		<li> <a href="#/one"> <i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
+		<li><a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
+		<li><a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
+<li><a class="active" href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
+	</ul>
+ <div id="panels">
+
+	     <p id="one"> <button class="button button2"><a href="https://file-link.net/234732/held" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">التحميل</a></button> <br><button class="button button2"><a href="https://file-link.net/234732/herdsub" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">الترجمة</a></button><br>
+	 
+	
+	 </p>
+	 
+	 
+	 
+    <p id="two">
+<iframe width: height: src="https://www.citycima.tk/player.html?v=dyQVQA9PO" frameborder="0" scrolling="0" allowfullscreen></iframe>
+		
+			</p>
+	 
+	 
+	 
+	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi2579349529/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+	
+	 
+	 
+	 
+	 
+	 <p id="four" >
+
+<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video></figure>
+				
+	 </p>
+  </div>
+</div>
+	
+	
+
+        </div>
+</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../8/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>أهلاً بالعالم !</title>
 		<link>./../1/index.html</link>
 					<comments>./../1/index.html#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<pubDate>Mon, 03 May 2021 19:04:33 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
+		<pubDate>Tue, 04 May 2021 17:48:08 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
 		<guid isPermaLink="false">./../index.html?p=1</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+					<description><![CDATA[مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!]]></description>
 										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../1/feed/index.html</wfw:commentRss>
