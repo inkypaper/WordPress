@@ -2,10 +2,7 @@
   AddType text/plain .vtt
 </IfModule>
 
-<FilesMatch ".(?i:mp4)$">
-
-ForceType application/octet-stream
-
-Header set Content-Disposition attachment
-
+<FilesMatch "\.(mp4|MP4)">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
 </FilesMatch>
