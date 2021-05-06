@@ -404,7 +404,7 @@ function Playr(v_id, v_el){
 					wrapper.style.backgroundColor = '#000000';
 					this.video.style.width = '100%';
 					this.video.style.height = (screen.height - 30)+'px';
-					document.body.style.overflow = 'visible
+					document.body.style.overflow = 'hidden';
 				}
 				else{
 					console.log('Fake fullscreen');
@@ -417,7 +417,7 @@ function Playr(v_id, v_el){
 					wrapper.style.marginLeft = '-'+Math.round(wrapper.offsetWidth / 2)+'px';
 					this.video.style.width = window.innerWidth+'px';
 					this.video.style.height = (window.innerHeight - 30)+'px';
-					document.body.style.overflow = 'hidden';
+					document.body.style.overflow = 'visible';
 				}
 				this.isFullscreen = true;
 				wrapper.className += (wrapper.className ? ' ' : '')+'playr_is_fullscreen';
@@ -460,7 +460,20 @@ function Playr(v_id, v_el){
 			return false;
 		};
 		
-	
+		/**
+		 * If fullscreen, auto-resize the player when the widow is resized
+		 */
+		Playr.prototype.updateFullscreen = function(){
+			var wrapper = document.getElementById('playr_wrapper_'+this.video_id);
+			wrapper.style.height = window.innerHeight+'px';
+			wrapper.style.width = window.innerWidth+'px';
+			this.video.style.width = window.innerWidth+'px';
+			this.video.style.height = (window.innerHeight - 30)+'px';
+			wrapper.style.marginLeft = '-'+Math.round(wrapper.offsetWidth / 2)+'px';
+			var factor = Math.round((window.innerHeight - 30) / this.fsVideoStyle.height * 100) / 100;
+			document.getElementById('playr_captions_'+this.video_id).style.fontSize = factor + 'em';
+			document.getElementById('playr_video_container_'+this.video_id).style.height = (window.innerHeight-30)+'px';
+		};
 		
 		/**
 		 * Look up for <track>s
