@@ -417,7 +417,7 @@ function Playr(v_id, v_el){
 					wrapper.style.marginLeft = '-'+Math.round(wrapper.offsetWidth / 2)+'px';
 					this.video.style.width = window.innerWidth+'px';
 					this.video.style.height = (window.innerHeight - 30)+'px';
-					document.body.style.overflow = 'visible';
+					document.body.style.overflow = 'visible
 				}
 				this.isFullscreen = true;
 				wrapper.className += (wrapper.className ? ' ' : '')+'playr_is_fullscreen';
