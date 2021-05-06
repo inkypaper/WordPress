@@ -7,7 +7,7 @@
 	>
 <channel>
 	<title>
-	التعليقات على: أهلاً بالعالم !	</title>
+	Comments on: أهلاً بالعالم !	</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>موقع ووردبريس عربي آخر</description>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 	<item>
 		<title>
-		بواسطة: مُعلِق ووردبريس		</title>
+		By: مُعلِق ووردبريس		</title>
 		<link>./../index.html#comment-1</link>
 
 		<dc:creator><![CDATA[مُعلِق ووردبريس]]></dc:creator>
