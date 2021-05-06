@@ -97,8 +97,10 @@
 	 
 	 
     <p id="two">
-<iframe width: height: src="https://www.citycima.tk/player.html?v=dyQVQA9PO" frameborder="0" scrolling="0" allowfullscreen></iframe>
-		
+
+		 <video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video">
+<track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default />
+</video>
 			</p>
 	 
 	 
@@ -110,9 +112,8 @@
 	 
 	 
 	 <p  id="four" >
-
-<video  controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="./../wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar" default /></video>
-				
+ 
+			
 	 </p>
   </div>
 </div>
