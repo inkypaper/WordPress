@@ -394,6 +394,18 @@ function Playr(v_id, v_el){
 					wrapper.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
 				}
 				
+				if(this.isTrueFullscreen){
+					console.log('True fullscreen');
+					wrapper.style.position = 'fixed';
+					wrapper.style.top = 0;
+					wrapper.style.left = 0;
+					wrapper.style.height = '100%';
+					wrapper.style.width = '100%';
+					wrapper.style.backgroundColor = '#000000';
+					this.video.style.width = '100%';
+					this.video.style.height = (screen.height - 30)+'px';
+					document.body.style.overflow = 'hidden';
+				}
 				
 				this.isFullscreen = true;
 				wrapper.className += (wrapper.className ? ' ' : '')+'playr_is_fullscreen';
