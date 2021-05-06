@@ -156,7 +156,12 @@ function Playr(v_id, v_el){
 			this.video.addEventListener('volumechange', function(){ that.volumeChangedEvent(); }, false);
 			this.video.addEventListener('progress', function(){ that.progressEvent(); }, false);
 			
-	
+			// true fullscreen
+			document.addEventListener('mozfullscreenchange',function(){ if(!document.mozFullScreen && that.isTrueFullscreen){that.fullscreen();} }, false);
+			document.addEventListener('webkitfullscreenchange',function(){ if(!document.webkitIsFullScreen && that.isTrueFullscreen){that.fullscreen();} }, false);
+
+			document.getElementById('playr_play_btn_'+this.video_id).addEventListener('click', function(){ that.play(); }, false);
+			
 			// timebar events
 			document.getElementById('playr_timebar_'+this.video_id).addEventListener('mousedown', function(){ that.isHoldingTime = true; }, false);
 			document.getElementById('playr_timebar_'+this.video_id).addEventListener('mouseup', function(e){ that.isHoldingTime = false; that.setPosition(e, true); }, false);
