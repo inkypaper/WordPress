@@ -404,9 +404,21 @@ function Playr(v_id, v_el){
 					wrapper.style.backgroundColor = '#000000';
 					this.video.style.width = '100%';
 					this.video.style.height = (screen.height - 30)+'px';
+					document.body.style.overflow = 'visible
+				}
+				else{
+					console.log('Fake fullscreen');
+					wrapper.style.backgroundColor = '#000000';
+					wrapper.style.position = 'fixed';
+					wrapper.style.top = 0;
+					wrapper.style.left = '50%';
+					wrapper.style.height =  window.innerHeight+'px';
+					wrapper.style.width = window.innerWidth+'px';
+					wrapper.style.marginLeft = '-'+Math.round(wrapper.offsetWidth / 2)+'px';
+					this.video.style.width = window.innerWidth+'px';
+					this.video.style.height = (window.innerHeight - 30)+'px';
 					document.body.style.overflow = 'hidden';
 				}
-				
 				this.isFullscreen = true;
 				wrapper.className += (wrapper.className ? ' ' : '')+'playr_is_fullscreen';
 			}
