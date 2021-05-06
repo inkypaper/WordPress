@@ -8,7 +8,7 @@
 
 .playr_wrapper{
 	font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-	display:inline-block;
+	display:block;
 	font-size:12pt;
 	
 }
@@ -58,7 +58,7 @@
 }
 
 .playr_captions p{
-	display:inline-block;
+	display:block;
 	margin:auto;
 	padding:4px;
 	background-color:rgba(0,0,0,0.75);
