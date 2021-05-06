@@ -404,7 +404,7 @@ function Playr(v_id, v_el){
 					wrapper.style.backgroundColor = '#000000';
 					this.video.style.width = '100%';
 					this.video.style.height = (screen.height - 30)+'px';
-					document.body.style.overflow = 'visible';
+					document.body.style.overflow = 'visible
 				}
 				else{
 					console.log('Fake fullscreen');
