@@ -80,7 +80,7 @@ function Playr(v_id, v_el){
 			this.video.removeAttribute('controls');
 
 			var template = '<div class="playr_captions_wrapper" id="playr_captions_wrapper_'+this.video_id+'">'+
-				'<div class="playr_top_overlay" id="playr_top_overlay_'+this.video_id+'"><a href="http://www.delphiki.com/html5/playr/">Playr</a></div>'+
+				
 				'<div class="playr_video_container" id="playr_video_container_'+this.video_id+'"></div>'+
 				'<div class="playr_captions" id="playr_captions_'+this.video_id+'"></div>'+
 				'</div>'+
