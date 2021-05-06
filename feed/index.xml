@@ -88,33 +88,41 @@
 <a class="active" href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
 	</ul>
  <div id="panels">
-
-	     <p id="one"> <button class="button button2"><a href="https://file-link.net/234732/held" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">التحميل</a></button> <br><button class="button button2"><a href="https://file-link.net/234732/herdsub" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">الترجمة</a></button><br>
-	 
-	
+ <p  style="text-align:center;" id="four"><strong>
+			
+			في إطار من الرعب والغموض، تقع علاقة متدهورة بين زوجين تحت الاختبار، حينما يتعرضا للاحتجاز كرهائن في منزل مؤجر بعطلة منعزلة بواسطة صوت غير مرئي يراقب ويتحكم في كافة تحركاتهما.
+			
+			</strong>
 	 </p>
 	 
 	 
+	 	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi2579349529/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+	
 	 
-    <p id="two">
+	   <p  id="two">
 
-		 <video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video">
+		<video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video">
 <track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default />
 </video>
 			</p>
 	 
 	 
-	 
-	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi2579349529/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
-	
-	 
-	 
-	 
-	 
-	 <p  id="four" >
- 
-			
+	     <p id="one">
+	<button class="button button2"><a href="https://file-link.net/234732/held" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">التحميل</a></button> <br><button class="button button2"><a href="https://file-link.net/234732/herdsub" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">الترجمة</a></button><br>
 	 </p>
+	 
+	 
+	 
+  
+	 
+	 
+	 
+
+	 
+	 
+	 
+	 
+	
   </div>
 </div>
 	
