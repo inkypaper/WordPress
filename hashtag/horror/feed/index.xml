@@ -55,19 +55,19 @@
 	 </p>
 	 
 	 
-	 	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi4064723225/" allowfullscreen="" scrolling="no" width="250px" height="100px"></iframe> </p>
+	 	 <p id="three"> <iframe  src="https://www.imdb.com/videoembed/vi4064723225/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
 	
 	 
-	   <p class="containerp" id="two">
+	   <p id="two">
 
-		<video controls src="https://archive.org/download/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4" class="playr_video">
+		<video   controls src="https://archive.org/download/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4"  class="playr_video">
 <track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/subtitles/Roohi.vtt" default />
 </video>
 			</p>
 	 
 	 
-	     <p id="one">
-	<button class="button button2"><a href="https://archive.org/download/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4" target="_blank" >التحميل</a></button> <br><button class="button button2"><a href="https://www.citycima.tk/subtitles/Roohi.vtt" target="_blank" >الترجمة</a></button><br>
+	     <p id="one"><br/>
+	<button class="button button2"><a href="https://ia801507.us.archive.org/10/items/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4" target="_blank" download="">التحميل</a></button> <br/> <button class="button button2"><a href="https://www.citycima.tk/subtitles/Roohi.vtt" target="_blank" download="" >  الترجمة </a></button> 
 	 </p>
 	 
 	 
