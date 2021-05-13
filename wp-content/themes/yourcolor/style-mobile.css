@@ -64,8 +64,8 @@ li {
 @font-face {
     font-family: 'FontAwesome';
 	font-display: swap;
-    src: url('./fonts/fontawesome-webfont.eot?v=4.3.0');
-    src: url('./fonts/fontawesome-webfont.eot#iefix&v=4.3.0') format('embedded-opentype'), url('./fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('./fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('./fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('./fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+    src: url('./head/fonts/fontawesome-webfont.eot?v=4.3.0');
+    src: url('./head/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('./head/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('./head/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('./head/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('./head/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
