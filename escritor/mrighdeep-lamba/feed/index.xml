@@ -31,65 +31,9 @@
 		<category><![CDATA[Horror]]></category>
 		<guid isPermaLink="false">./../../../index.html?p=53</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[<p><span id="wow-shortcode"><code>  
-
-
-<div class="wrap">
-
-  <ul class="tabs group">
-		<li> <a white-space= nowrap href="#/one"  >  
-			
-			<i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
-		<li>
-<a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
-		<li>
-<a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
-<li  white-space= "nowrap">
-<a  class="active"  href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
-	</ul>
- <div id="panels">
- <p  style="text-align:center;" id="four"><strong>
-			بورا وكاتاني فتيان من القرية، يصادفان في طريقهما رجل يدعى روحي، وبسبب سلسلة من الظروف الغريبة، يضطران للبقاء مع روحي في إحدى الغابات، لكنهما يلاحظان أن روحي يعاني من انفصام في الشخصية.
-			</strong>
-	 </p>
-	 
-	 
-	 	 <p id="three"> <iframe  src="https://www.imdb.com/videoembed/vi4064723225/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
-	
-	 
-	   <p id="two">
-
-		<video   controls src="https://archive.org/download/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4"  class="playr_video">
-<track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/subtitles/Roohi.vtt" default />
-</video>
-			</p>
-	 
-	 
-	     <p id="one"><br/>
-	<button class="button button2"><a href="https://ia801507.us.archive.org/10/items/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4" target="_blank" download="">التحميل</a></button> <br/> <button class="button button2"><a href="https://www.citycima.tk/subtitles/Roohi.vtt" target="_blank" download="" >  الترجمة </a></button> 
-	 </p>
-	 
-	 
-	 
-  
-	 
-	 
-	 
-
-	 
-	 
-	 
-	 
-	
-  </div>
-</div>
-	
-	
-
-        </div>
-</code></span></p>
-<!-- Created with a shortcode from an AddThis plugin --><div class="addthis_inline_share_toolbox_kvdp addthis_tool"></div><!-- End of short code snippet -->
+					<description><![CDATA[[WP-Coder id="2"] [addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]]]></description>
+										<content:encoded><![CDATA[<p><span id="wow-shortcode"><code>[WP-Coder id="2"]</code></span></p>
+<p>[addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../../../53/feed/index.html</wfw:commentRss>
@@ -99,11 +43,3 @@
 			</item>
 	</channel>
 </rss>
-
-<!--
-Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
-
-Minified using disk
-
-Served from: localhost @ 2021-05-13 23:29:39 by W3 Total Cache
--->
