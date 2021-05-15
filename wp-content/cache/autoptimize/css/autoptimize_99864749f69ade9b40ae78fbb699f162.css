@@ -11,7 +11,7 @@ Tags: Films, Movies, Show Online, Series, Resposive, Schema
 	font-display: swap;
     font-style: normal;
     font-weight: 700;
-    src: url(./../../../themes/yourcolor/head/fonts/DroidKufi-Bold.ttf) format('truetype');
+    src: url(http://localhost/wp-content/themes/yourcolor/head/fonts/DroidKufi-Bold.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Font';
@@ -19,7 +19,7 @@ Tags: Films, Movies, Show Online, Series, Resposive, Schema
     font-style: normal;
     font-weight: 700;
 	
-    src: url(./../../../themes/yourcolor/head/fonts/DroidKufi-Regular.ttf) ;
+    src: url(http://localhost/wp-content/themes/yourcolor/head/fonts/DroidKufi-Regular.ttf) ;
 	  
 }
 .topHead {
@@ -64,8 +64,8 @@ li {
 @font-face {
     font-family: 'FontAwesome-swap';
 	font-display: swap;
-    src: url(./../../../themes/yourcolor/./fonts/fontawesome-webfont.eot?v=4.3.0);
-    src: url(./../../../themes/yourcolor/./fonts/fontawesome-webfont.eot?#iefix&v=4.3.0) format('embedded-opentype'), url(./../../../themes/yourcolor/./fonts/fontawesome-webfont.woff2?v=4.3.0) format('woff2'), url(./../../../themes/yourcolor/./fonts/fontawesome-webfont.woff?v=4.3.0) format('woff'), url(./../../../themes/yourcolor/./fonts/fontawesome-webfont.ttf?v=4.3.0) format('truetype'), url(./../../../themes/yourcolor/./fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular) format('svg');
+    src: url(//localhost/wp-content/themes/yourcolor/./fonts/fontawesome-webfont.eot?v=4.3.0);
+    src: url(//localhost/wp-content/themes/yourcolor/./fonts/fontawesome-webfont.eot?#iefix&v=4.3.0) format('embedded-opentype'), url(//localhost/wp-content/themes/yourcolor/./fonts/fontawesome-webfont.woff2?v=4.3.0) format('woff2'), url(//localhost/wp-content/themes/yourcolor/./fonts/fontawesome-webfont.woff?v=4.3.0) format('woff'), url(//localhost/wp-content/themes/yourcolor/./fonts/fontawesome-webfont.ttf?v=4.3.0) format('truetype'), url(//localhost/wp-content/themes/yourcolor/./fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -1146,7 +1146,7 @@ body.page1-template-template-front-page1-php .post-thumb-img-wrapper.active.shad
 .shadows:before {
     content: '';
     position: absolute;
-    background: url(./../../../themes/yourcolor/images/shadow.png) center bottom no-repeat;
+    background: url(//localhost/wp-content/themes/yourcolor/images/shadow.png) center bottom no-repeat;
     background-size: 100% 100%;
     width: 100%;
     z-index: -1;
@@ -1438,11 +1438,11 @@ h1.movied {
 @font-face {
     font-family: 'icomoon';
 	font-display: swap;
-    src:url(./../../../themes/yourcolor/./fonts/icomoon.eot?3d1mhj);
-    src:url(./../../../themes/yourcolor/./fonts/icomoon.eot?#iefix3d1mhj) format('embedded-opentype'),
-        url(./../../../themes/yourcolor/./fonts/icomoon.woff?3d1mhj) format('woff'),
-        url(./../../../themes/yourcolor/./fonts/icomoon.ttf?3d1mhj) format('truetype'),
-        url(./../../../themes/yourcolor/./fonts/icomoon.svg?3d1mhj#icomoon) format('svg');
+    src:url(//localhost/wp-content/themes/yourcolor/./fonts/icomoon.eot?3d1mhj);
+    src:url(//localhost/wp-content/themes/yourcolor/./fonts/icomoon.eot?#iefix3d1mhj) format('embedded-opentype'),
+        url(//localhost/wp-content/themes/yourcolor/./fonts/icomoon.woff?3d1mhj) format('woff'),
+        url(//localhost/wp-content/themes/yourcolor/./fonts/icomoon.ttf?3d1mhj) format('truetype'),
+        url(//localhost/wp-content/themes/yourcolor/./fonts/icomoon.svg?3d1mhj#icomoon) format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -1908,7 +1908,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     display: none;
     height: 100%;
-    background: url(./../../../themes/yourcolor/img/bg.png) repeat top center;
+    background: url(//localhost/wp-content/themes/yourcolor/img/bg.png) repeat top center;
     z-index: -1;
     box-shadow: inset 0px 0px 60px rgba(0, 0, 0, 0.35);
     background-position: 100% 0%
@@ -1925,7 +1925,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 28px;
     margin-top: 3px;
-    background: url(./../../../themes/yourcolor/./img/shadow-1.png);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/shadow-1.png);
     background-size: 100% 100%
 }
 .header .inside {
@@ -1995,7 +1995,7 @@ body::-webkit-scrollbar-thumb {
 .header .inside .wrap > div > ul > li:hover > ul:after {
     content: '';
     position: absolute;
-    background: url(./../../../themes/yourcolor/img/shadow-1.png) center bottom no-repeat;
+    background: url(//localhost/wp-content/themes/yourcolor/img/shadow-1.png) center bottom no-repeat;
     background-size: 100% 100%;
     width: 100%;
     z-index: -1;
@@ -2147,7 +2147,7 @@ h2.module_title span {
     margin-top: 2px;
     height: 27px;
     opacity: .5;
-    background: url(./../../../themes/yourcolor/./img/shadow-2.png);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/shadow-2.png);
     background-size: 100% 100%;
 }
 .alkady .sectionTop li {
@@ -3623,7 +3623,7 @@ span.button.red > span.text {
     box-sizing: border-box
 }
 .topHead {
-    background: #212121 url(./../../../themes/yourcolor/./img/header2.jpg);
+    background: #212121 url(//localhost/wp-content/themes/yourcolor/./img/header2.jpg);
     border-top: 6px solid #373737 !important;
     margin-bottom: 0px;
     height: 333px;
@@ -3761,7 +3761,7 @@ span.button.red > span.text {
     position: absolute;
     width: 40px;
     cursor: pointer;
-    background: url(./../../../themes/yourcolor/./img/searchs(1/index.html).png") 50% 50% / 25px no-repeat rgb(247, 247, 247);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/searchs(1).png") 50% 50% / 25px no-repeat rgb(247, 247, 247);
     height: 40px;
     border-radius: 10px;
 }
@@ -10564,7 +10564,7 @@ span.button.red > span.text {
     left: -19px;
     width: 130%;
     height: 100%;
-    background: url(./../../../themes/yourcolor/./img/triangle.svg) no-repeat center center;
+    background: url(//localhost/wp-content/themes/yourcolor/./img/triangle.svg) no-repeat center center;
     background-size: 100% 100%;
     content: '';
     -webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
@@ -10788,7 +10788,7 @@ span.button.red > span.text {
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url(./../../../themes/yourcolor/owl.video.play.png) no-repeat;
+    background: url(//localhost/wp-content/themes/yourcolor/owl.video.play.png) no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -11008,7 +11008,7 @@ a.slider-next {
 .backgroundRelated:before {
     content: '';
     position: absolute;
-    background: red url(./../../../themes/yourcolor/./img/escheresque_ste.png);
+    background: red url(//localhost/wp-content/themes/yourcolor/./img/escheresque_ste.png);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -11153,7 +11153,7 @@ a.overlayPlay i {
     background: rgba(0, 0, 0, 0.6);
 }
 .imdb_rate {
-    background: url(./../../../themes/yourcolor/./img/star.png) top center no-repeat;
+    background: url(//localhost/wp-content/themes/yourcolor/./img/star.png) top center no-repeat;
     background-size: 100% 100% !important;
     position: absolute;
     left: 10px;
@@ -11649,12 +11649,12 @@ header {
 
 .link--urpi::before {
 	-webkit-clip-path: url(#cp_up); 
-	clip-path: url(./../../../themes/yourcolor/../index.html#cp_up);
+	clip-path: url(//localhost/wp-content/themes/yourcolor/../index.html#cp_up);
 }
 
 .link--urpi::after {
 	-webkit-clip-path: url(#cp_down); 
-	clip-path: url(./../../../themes/yourcolor/../index.html#cp_down);
+	clip-path: url(//localhost/wp-content/themes/yourcolor/../index.html#cp_down);
 }
 
 .link--urpi:hover::before,
@@ -12047,7 +12047,7 @@ header {
     position: absolute;
     height: 148px;
     width: 146px;
-    background: url(./../../../themes/yourcolor/./img/aflam-linc.png);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/aflam-linc.png);
     top: 50px;
     left: 0;
     transition: .3s all ease;
@@ -12057,7 +12057,7 @@ header {
     position: absolute;
     height: 148px;
     width: 146px;
-    background: url(./../../../themes/yourcolor/./img/aflam-linc.png);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/aflam-linc.png);
     top: 50px;
     right: 0;
     transform: translate(-120px, 0px);
@@ -12066,7 +12066,7 @@ header {
 .logo .logo {
     height: 139px;
     width: 241px;
-    background: url(./../../../themes/yourcolor/./img/aflamOnlinee-logo.png);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/aflamOnlinee-logo.png);
     position: absolute;
     top: 93px;
     left: 50%;
@@ -12123,7 +12123,7 @@ header {
 }
 .logo .popcorn {
     position: absolute;
-    background: url(./../../../themes/yourcolor/./img/aflam-popcorn.png);
+    background: url(//localhost/wp-content/themes/yourcolor/./img/aflam-popcorn.png);
     width: 112px;
     height: 174px;
     right: 50%;
@@ -12723,7 +12723,7 @@ header:before {content: '';position: absolute;top: 0;right: 0;width: 100%;height
     width: 100%;
     height: 60px;
     background-size: 100% 100%;
-    background-image: url(./../../../themes/yourcolor/./img/shadow-1.png);
+    background-image: url(//localhost/wp-content/themes/yourcolor/./img/shadow-1.png);
 }
 .sectionEpisodes .episodesList {
     margin-bottom: 0;
@@ -12804,8 +12804,8 @@ a.IMDBButton {
     margin-left: 15px;
     text-shadow: 1px 1px 0px #290614;
 }
-.sectionsCategories > .section > h2:after {content: '';position: absolute;top: 100%;margin-top: 2px;right: 0;pointer-events: none;width: 100%;height: 40px;background: url(./../../../themes/yourcolor/./img/shadow-1.png);z-index: -1;background-size: 100% 100%;}
-.sectionsCategories > .section > h2:before {content: '';position: absolute;top: 0;right: 0;pointer-events: none;opacity: .5;width: 100%;height: 40px;background: url(./../../../themes/yourcolor/./img/shadow-1.png);z-index: -1;background-size: 100% 100%;}
+.sectionsCategories > .section > h2:after {content: '';position: absolute;top: 100%;margin-top: 2px;right: 0;pointer-events: none;width: 100%;height: 40px;background: url(//localhost/wp-content/themes/yourcolor/./img/shadow-1.png);z-index: -1;background-size: 100% 100%;}
+.sectionsCategories > .section > h2:before {content: '';position: absolute;top: 0;right: 0;pointer-events: none;opacity: .5;width: 100%;height: 40px;background: url(//localhost/wp-content/themes/yourcolor/./img/shadow-1.png);z-index: -1;background-size: 100% 100%;}
 .sectionsCategories > .section > h2 {
     font-family: Font Bold;
     margin: 0 auto 10px;
