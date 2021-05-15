@@ -9,8 +9,8 @@
 
 <channel>
 	<title>سيما سيتى</title>
-	<atom:link href="https://www.citycima.tk/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.citycima.tk/</link>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>موقع ووردبريس عربي آخر</description>
 	<lastBuildDate>Sat, 15 May 2021 19:56:25 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,59 +21,59 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>zombie detective</title>
-		<link>https://www.citycima.tk/105/</link>
-					<comments>https://www.citycima.tk/105/#respond</comments>
+		<link>/105/</link>
+					<comments>/105/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 15 May 2021 19:53:45 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=105</guid>
+		<guid isPermaLink="false">/?p=105</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/105/feed/</wfw:commentRss>
+					<wfw:commentRss>/105/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Roohi 2021</title>
-		<link>https://www.citycima.tk/53/</link>
-					<comments>https://www.citycima.tk/53/#respond</comments>
+		<link>/53/</link>
+					<comments>/53/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Thu, 06 May 2021 15:33:37 +0000</pubDate>
 				<category><![CDATA[Movies - افلام]]></category>
 		<category><![CDATA[Comedy]]></category>
 		<category><![CDATA[Horror]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=53</guid>
+		<guid isPermaLink="false">/?p=53</guid>
 
 					<description><![CDATA[[WP-Coder id="2"] [addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]]]></description>
 										<content:encoded><![CDATA[<p><span id="wow-shortcode"><code>[WP-Coder id="2"]</code></span></p>
 <p>[addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/53/feed/</wfw:commentRss>
+					<wfw:commentRss>/53/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>PLAYR TEST</title>
-		<link>https://www.citycima.tk/15/</link>
-					<comments>https://www.citycima.tk/15/#respond</comments>
+		<link>/15/</link>
+					<comments>/15/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 05 May 2021 19:40:00 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=15</guid>
+		<guid isPermaLink="false">/?p=15</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<p><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video"><track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default /></video></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/15/feed/</wfw:commentRss>
+					<wfw:commentRss>/15/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		<enclosure url="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" length="0" type="video/mp4" />
@@ -81,20 +81,20 @@
 			</item>
 		<item>
 		<title></title>
-		<link>https://www.citycima.tk/11/</link>
-					<comments>https://www.citycima.tk/11/#respond</comments>
+		<link>/11/</link>
+					<comments>/11/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 05 May 2021 13:16:01 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=11</guid>
+		<guid isPermaLink="false">/?p=11</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="https://www.citycima.tk/wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar"/></video></figure>
+<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="/wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar"/></video></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/11/feed/</wfw:commentRss>
+					<wfw:commentRss>/11/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		<enclosure url="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" length="0" type="video/mp4" />
@@ -102,39 +102,39 @@
 			</item>
 		<item>
 		<title></title>
-		<link>https://www.citycima.tk/8/</link>
-					<comments>https://www.citycima.tk/8/#respond</comments>
+		<link>/8/</link>
+					<comments>/8/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 04 May 2021 18:35:00 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=8</guid>
+		<guid isPermaLink="false">/?p=8</guid>
 
 					<description><![CDATA[[WP-Coder id=&#8221;1&#8243;]]]></description>
 										<content:encoded><![CDATA[<p>	[WP-Coder id=&#8221;1&#8243;]</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/8/feed/</wfw:commentRss>
+					<wfw:commentRss>/8/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>أهلاً بالعالم !</title>
-		<link>https://www.citycima.tk/1/</link>
-					<comments>https://www.citycima.tk/1/#comments</comments>
+		<link>/1/</link>
+					<comments>/1/#comments</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 04 May 2021 17:48:08 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=1</guid>
+		<guid isPermaLink="false">/?p=1</guid>
 
 					<description><![CDATA[مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!]]></description>
 										<content:encoded><![CDATA[
 <p>مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/1/feed/</wfw:commentRss>
+					<wfw:commentRss>/1/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		

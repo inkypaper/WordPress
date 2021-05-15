@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: أهلاً بالعالم !	</title>
-	<atom:link href="https://www.citycima.tk/1/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.citycima.tk/1/</link>
+	<atom:link href="/1/feed/" rel="self" type="application/rss+xml" />
+	<link>/1/</link>
 	<description>موقع ووردبريس عربي آخر</description>
 	<lastBuildDate>Tue, 04 May 2021 17:48:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		By: مُعلِق ووردبريس		</title>
-		<link>https://www.citycima.tk/1/#comment-1</link>
+		<link>/1/#comment-1</link>
 
 		<dc:creator><![CDATA[مُعلِق ووردبريس]]></dc:creator>
 		<pubDate>Tue, 04 May 2021 17:48:08 +0000</pubDate>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/?p=1#comment-1</guid>
 
 					<description><![CDATA[مرحبًا، هذا تعليق.
 للبدء بالإشراف، التحرير، وحذف التعليقات، من فضلك قم بزيارة شاشة التعليقات في لوحة التحكم.
