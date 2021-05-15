@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>موقع ووردبريس عربي آخر</description>
-	<lastBuildDate>Sat, 15 May 2021 19:09:37 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 15 May 2021 19:56:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,24 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
+		<title>zombie detective</title>
+		<link>./../105/index.html</link>
+					<comments>./../105/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 15 May 2021 19:53:45 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
+		<guid isPermaLink="false">./../index.html?p=105</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../105/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>Roohi 2021</title>
 		<link>./../53/index.html</link>
 					<comments>./../53/index.html#respond</comments>
