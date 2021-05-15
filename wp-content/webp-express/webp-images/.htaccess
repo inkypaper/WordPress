@@ -9,7 +9,7 @@
 # - Redirection to existing webp: enabled
 # - Redirection to converter: disabled
 # - Redirection to converter to create missing webp files upon request for the webp: disabled
-# - Destination folder: mingled
+# - Destination folder: separate
 # - Destination extension: append
 # - Destination structure: doc-root
 # - Image types: jpeg, png

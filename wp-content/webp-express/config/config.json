@@ -1,7 +1,7 @@
 {
     "operation-mode": "varied-image-responses",
     "image-types": 3,
-    "destination-folder": "mingled",
+    "destination-folder": "separate",
     "destination-extension": "append",
     "destination-structure": "doc-root",
     "cache-control": "no-header",
@@ -9,8 +9,10 @@
     "cache-control-max-age": "one-week",
     "cache-control-public": false,
     "scope": [
+        "plugins",
         "themes",
-        "uploads"
+        "uploads",
+        "wp-content"
     ],
     "enable-redirection-to-converter": false,
     "only-redirect-to-converter-on-cache-miss": false,
