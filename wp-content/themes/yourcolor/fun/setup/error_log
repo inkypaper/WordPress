@@ -1,0 +1,6 @@
+[19-Feb-2017 05:58:48 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/setup/manage-setup.php on line 22
+[19-Feb-2017 13:44:20 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/setup/manage-setup.php on line 22
+[19-Feb-2017 22:20:16 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/setup/manage-setup.php on line 22
+[20-Feb-2017 17:54:46 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/setup/manage-setup.php on line 22
+[15-Mar-2017 05:37:08 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/setup/manage-setup.php on line 22
+[15-Mar-2017 05:37:12 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/setup/manage-setup.php on line 22

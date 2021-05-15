@@ -1,0 +1,114 @@
+.center-cont .responsive-tabs {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	text-align: center;
+}
+.center-cont .responsive-tabs li {
+	width: 155px;
+	margin: 0;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+}
+.center-cont .responsive-tabs li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+	font-family: 'DroidKufi Bold' , Tahoma;
+	font-size: 13px;
+	color: #FFF;
+}
+.center-cont .responsive-tabs li.active a {
+    color: black;
+}
+.responsive-tabs li.active { font-weight: bold; }
+.responsive-tabs-content { }
+.responsive-tabs-content.bm-remove	{ margin-bottom: 0;    }
+.responsive-tabs-content.bm-smaller	{ margin-bottom: 5px;  }
+.responsive-tabs-content.bm-small	{ margin-bottom: 10px; }
+.responsive-tabs-content.bm-medium	{ margin-bottom: 20px; }
+.responsive-tabs-content.bm-large	{ margin-bottom: 30px; }
+.responsive-tabs-content.bm-larger	{ }
+.responsive-tabs-content .responsive-tabs-panel { padding: 10px; height: 560px;}
+.responsive-tabs-content .responsive-tabs-panel .responsive-tab-title { display: none; }
+.responsive-tabs.responsive-tabs-left {
+	width: 150px;
+	float: left;
+}
+.responsive-tabs.responsive-tabs-left li {
+	text-align: left;
+	float: none;
+}
+.responsive-tabs-content.responsive-tabs-left { overflow: hidden; }
+.responsive-tabs.responsive-tabs-right {
+	width: 150px;
+	float: right;
+}
+.responsive-tabs.responsive-tabs-right li {
+	text-align: right;
+	float: none;
+}
+.responsive-tabs-content.responsive-tabs-right { overflow: hidden; }
+.center-cont .container {
+	display: block;
+	width: 769px;
+	min-width: 280px;
+	min-height: 1px;
+	margin: 0 auto 20px;
+	padding: 0;
+	position: relative;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.responsive-tabs-default .responsive-tabs li {
+	background: #242424;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px 5px 0 0;
+	border-top: 1px solid #A3A3A3;
+	border-right: 1px solid #D5D5D5;
+	border-left: 1px solid #D5D5D5;
+}
+.responsive-tabs-default .responsive-tabs li:last-child {
+	border-right: 1px solid #DDD;
+}
+.responsive-tabs-default .responsive-tabs li.active {
+	background: #f0f0f0;
+}
+.responsive-tabs-default .responsive-tabs-content {
+	background: #F1F1F1;
+	position: relative;
+	top: -1px;
+	z-index: 999;
+	box-shadow: 1px 1px 0 0px #DDD , -1px -1px 0 0px #DDD , inset 0px -1px 0 0px #DDD;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+.responsive-tabs-default .responsive-tabs-content .responsive-tab-title { color: #0B8593; }
+.responsive-tabs-default .responsive-tabs.responsive-tabs-left { left: 1px; }
+.responsive-tabs-default .responsive-tabs.responsive-tabs-left li {
+	width: 100%;
+	border-right: 1px solid #DDD;
+	border-bottom: 0;
+	line-height: 50px;
+}
+.responsive-tabs-default .responsive-tabs.responsive-tabs-left li:last-child { border-bottom: 1px solid #DDD; }
+.responsive-tabs-default .responsive-tabs.responsive-tabs-left li.active { border-right: 1px solid #FFF;}
+.responsive-tabs-default .responsive-tabs-content.responsive-tabs-left { top: 0; }
+.responsive-tabs-default .responsive-tabs.responsive-tabs-right { right: 1px; }
+.responsive-tabs-default .responsive-tabs.responsive-tabs-right li {
+	width: 100%;
+	border-right: 1px solid #DDD;
+	border-bottom: 0;
+	border-left: 1px solid #DDD;
+	line-height: 50px;
+}
+.responsive-tabs-default .responsive-tabs.responsive-tabs-right li:last-child { border-bottom: 1px solid #DDD; }
+.responsive-tabs-default .responsive-tabs.responsive-tabs-right li.active { border-left: 1px solid #FFF;}
+.responsive-tabs-default .responsive-tabs-content.responsive-tabs-right { top: 0; }

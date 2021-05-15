@@ -1,0 +1,1 @@
+[17-Feb-2017 20:34:43 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/newsletters/newsletters.php on line 1

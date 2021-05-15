@@ -1,0 +1,155 @@
+*:focus{
+	box-shadow: 0 0 0 0 !important;
+	border:0px !important;
+	outline: none;
+}
+.ma-video-machine{
+    background: rgba(255, 255, 255, 0.44);
+    padding: 10px;
+    margin: 10px;
+}
+.video-machine{
+    background: rgba(0, 0, 0, 0.45);
+    padding:10px;
+}
+.video-machine ul{
+    margin:0px;
+}
+.video-machine li{
+    background: rgba(198, 198, 198, 0.99);
+}
+.video-machine span{
+    display: inline-block;
+    background: #222;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 115px;
+}
+.video-machine input[type="text"] , .video-machine input[type="url"]{
+    border: 0px;
+    padding: 5px 10px;
+    min-width: 600px;
+    background: rgba(241, 241, 241, 0.99);
+    border: 1px solid #AEAEAE;
+}
+.yourcolor-cat-add{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #D6D6D6;
+    box-shadow: inset 0px 1px 24px rgba(0, 0, 0, 0.42);
+    border: 3px solid #F8F8F8;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.yourcolor-cat-add label {
+	display: inline-block;
+	padding: 0px 5px;
+	width: 211px;
+	background: #9E0C12;
+	background-size: 4px 4px;  
+	background-image: url(./head/img/blank_pat.png);
+	background: rgba(255, 255, 255, 0.65);
+	border: 1px solid rgba(151, 151, 151, 0.19);
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.31);
+	margin-left: 0px;
+	margin-right: 6px;
+	margin-bottom: 7px;
+	color: #000000;
+	font-family: 'DroidKufi bold' , Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	height: 28px;
+	line-height: 28px;
+	text-align: right;
+}
+.yourcolor-cat-add label:hover {  
+	background: #9E0C12;
+	border: 1px solid rgba(151, 151, 151, 0.19);
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.31);
+	color: #FFFFFF;
+}
+input[type="checkbox"] {
+    background: transparent url(./../../../head/img/sprite1.png) -6px -4px no-repeat; 
+    -webkit-appearance: none; 
+    appearance: none; 
+    -o-appearance: none; 
+    -moz-appearance: none; 
+    -khtml-appearance: none; 
+    -ms-appearance: none; 
+    border: none;
+    width: 22px; 
+    margin-top: 4px;
+    min-width: 22px;
+    height: 24px;
+    overflow: visible; 
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    box-shadow: 0 0 0 0;
+}
+input[type="checkbox"]:hover {
+    background-position: -42px -4px;
+}
+input[type="checkbox"]:active {
+    background-position: -82px -4px;
+}
+input[type="checkbox"]:checked {
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    text-indent: -9999px;
+    background: url(./../../../head/img/active-check.png);
+    width: 22px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: 3px 0px;
+    border: none;
+}
+input[type="checkbox"]:checked:active::before {
+    top: 3px;
+}
+#apfform .submit{
+	background: #9E0C12
+;float: left;
+	color: white;
+	font-family: Tahoma;
+	font-weight: bold;
+	border-color: #760A0F;
+	box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.06),0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+
+/*
+background: rgba(0, 0, 0, 0) url(./head/img/sprite1.png) -6px -4px no-repeat;
+-webkit-appearance: none;
+appearance: none;
+-o-appearance: none;
+-moz-appearance: none;
+-khtml-appearance: none;
+-ms-appearance: none;
+border: none;
+width: 22px;
+min-width: 22px;
+height: 24px;
+overflow: visible;
+cursor: pointer;
+float: right;
+margin-left: 10px;
+
+
+*/
+
+
+
+
+
+
+
+
+

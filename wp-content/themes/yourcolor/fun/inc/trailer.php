@@ -1,0 +1,35 @@
+<?php 
+
+    //////////////////////////////////////////////////////////////
+
+    //////////////////////////////////////////////////////////////
+
+    if($_SERVER['HTTP_X_REQUESTED_WITH'] == "XMLHttpRequest"){ 
+
+    //////////////////////////////////////////////////////////////
+
+    header('Content-Type: text/html; charset=utf-8');
+
+    //////////////////////////////////////////////////////////////
+
+    ob_start();
+
+    define('WP_USE_THEMES', false);
+
+    $parse_uri = explode( 'wp-content', $_SERVER['SCRIPT_FILENAME'] );
+
+    require_once( $parse_uri[0] . 'wp-load.php' );
+
+    //////////////////////////////////////////////////////////////
+
+    $post_id = $_GET["post_id"]; 
+
+    //////////////////////////////////////////////////////////////
+
+?>
+
+    <?php $Trailer = get_post_meta( $post_id , 'Trailer' , true );  ?>
+
+    <div class="trailer"><?php echo $Trailer; ?></div>
+
+<?php } ?>

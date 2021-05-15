@@ -1,0 +1,5 @@
+[14-Feb-2017 11:49:01 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/the_fear/define.php on line 7
+[14-Feb-2017 19:29:53 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/the_fear/define.php on line 7
+[15-Feb-2017 01:49:47 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/the_fear/define.php on line 7
+[15-Feb-2017 09:44:24 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/the_fear/define.php on line 7
+[15-Feb-2017 13:20:53 UTC] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/the_fear/define.php on line 7

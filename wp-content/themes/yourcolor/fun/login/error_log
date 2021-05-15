@@ -1,0 +1,2 @@
+[10-Mar-2015 00:34:49 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/beta/public_html/wp-content/themes/cimacity/fun/login/login-design.php on line 5
+[15-Mar-2017 05:37:27 UTC] PHP Fatal error:  Call to undefined function add_filter() in /home/arabspyder/public_html/wp-content/themes/yourcolor/fun/login/login-design.php on line 5
