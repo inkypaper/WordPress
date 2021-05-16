@@ -9,7 +9,7 @@
  * 
  * Copyright (c) 2013 Marc Whitbread
  * 
- * Version: v1.3.24 (12/19/2013) (Demo Version)
+ * Version: v1.3.43 (06/17/2014)
  * Minimum requirements: jQuery v1.4+
  *
  * Advanced requirements:
@@ -47,7 +47,7 @@
 	var yScrollDistance = 0;
 	var scrollIntervalTime = 10;
 	var scrollbarDistance = 0;
-	var isTouch = 'ontouchstart' in window;
+	var isTouch = 'ontouchstart' in window || (navigator.msMaxTouchPoints > 0);
 	var supportsOrientationChange = 'onorientationchange' in window;
 	var isWebkit = false;
 	var has3DTransform = false;
@@ -117,7 +117,7 @@
 			
 			if(settings.infiniteSlider) {
 				
-				if(newOffset <= (sliderMax[sliderNumber] * -1)) {
+				if((newOffset <= (sliderMax[sliderNumber] * -1)) || (newOffset <= (sliderAbsMax[sliderNumber] * -1))) {
 					
 					var scrollerWidth = $(node).width();
 
@@ -139,7 +139,9 @@
 						sliderMax[sliderNumber] = sliderMin[sliderNumber] + scrollerWidth - stageWidth;
 						infiniteSliderOffset[sliderNumber] = 0;
 						
-					} else {
+					}
+						
+					while(newOffset <= (sliderMax[sliderNumber] * -1)) {
 						
 						var lowSlideNumber = 0;
 						var lowSlideOffset = helpers.getSliderOffset($(slideNodes[0]), 'x');
@@ -168,11 +170,11 @@
 				}
 				
 				if((newOffset >= (sliderMin[sliderNumber] * -1)) || (newOffset >= 0)) {
-					
+
 					var scrollerWidth = $(node).width();
 					
-					if(newOffset >= 0) {
-
+					if(newOffset > 0) {
+						
 						var sum = originalOffsets[0] * -1;
 						$(slideNodes).each(function(i) {
 							
@@ -190,7 +192,7 @@
 						infiniteSliderOffset[sliderNumber] = numberOfSlides;
 						
 						while(((childrenOffsets[0] * -1 - scrollerWidth + centeredSlideOffset) > 0)) {
-
+							
 							var highSlideNumber = 0;
 							var highSlideOffset = helpers.getSliderOffset($(slideNodes[0]), 'x');
 							$(slideNodes).each(function(i) {
@@ -218,8 +220,8 @@
 
 					} 
 					
-					if(newOffset < 0) {
-
+					while(newOffset > (sliderMin[sliderNumber] * -1)) {
+						
 						var highSlideNumber = 0;
 						var highSlideOffset = helpers.getSliderOffset($(slideNodes[0]), 'x');
 						$(slideNodes).each(function(i) {
@@ -279,7 +281,8 @@
 			activeChildInfOffsets[sliderNumber] = tempOffset;
 			
 			newOffset = Math.floor(newOffset);
-
+			
+			if(sliderNumber != $(node).parent().data('args').data.sliderNumber) return true;
 			helpers.setSliderOffset(node, newOffset);
 
 			if(settings.scrollbar) {
@@ -546,12 +549,14 @@
 				}
 			
 			}
-
+			
 			if(settings.onSlideComplete != '' && (distanceOffsetArray.length > 1)) {
 				
 				scrollTimeouts[scrollTimeouts.length] = helpers.onSlideCompleteTimer(scrollIntervalTime * (j + 1), settings, node, $(node).children(':eq(' + tempOffset + ')'), endOffset, sliderNumber);
 				
 			}
+			
+			scrollTimeouts[scrollTimeouts.length] = helpers.updateBackfaceVisibilityTimer(scrollIntervalTime * (j + 1), slideNodes, sliderNumber, numberOfSlides, settings);
 			
 			slideTimeouts[sliderNumber] = scrollTimeouts;
 			
@@ -567,7 +572,6 @@
 				
 			if(settings.onSlideComplete != '') {
 				settings.onSlideComplete(args);
-			
 			}
 			
 			onChangeEventLastFired[sliderNumber] = newChildOffset;
@@ -619,6 +623,7 @@
 			if(has3DTransform && !isIe7 && !isIe8) {
 				
 				$(node).css({
+					'msTransform': 'matrix(1,0,0,1,' + sliderOffset + ',0)',
 					'webkitTransform': 'matrix(1,0,0,1,' + sliderOffset + ',0)',
 					'MozTransform': 'matrix(1,0,0,1,' + sliderOffset + ',0)',
 					'transform': 'matrix(1,0,0,1,' + sliderOffset + ',0)'
@@ -662,6 +667,7 @@
 			var has3D = false;
 			
 			var testElement = $('<div />').css({
+				'msTransform': 'matrix(1,1,1,1,1,1)',
 				'webkitTransform': 'matrix(1,1,1,1,1,1)',
 				'MozTransform': 'matrix(1,1,1,1,1,1)',
 				'transform': 'matrix(1,1,1,1,1,1)'
@@ -745,7 +751,7 @@
 		},
 		
 		changeSlide: function(slide, node, slideNodes, scrollTimeouts, scrollbarClass, scrollbarWidth, stageWidth, scrollbarStageWidth, scrollMargin, scrollBorder, originalOffsets, childrenOffsets, slideNodeOuterWidths, sliderNumber, infiniteSliderWidth, numberOfSlides, centeredSlideOffset, settings) {
-
+			
 			helpers.autoSlidePause(sliderNumber);
 			
 			for(var j = 0; j < scrollTimeouts.length; j++) {
@@ -788,6 +794,12 @@
 				
 				}
 				
+			}
+			
+			if((offsetDiff < 0) && (direction == -1)) {
+				offsetDiff += $(node).width();
+			} else if((offsetDiff > 0) && (direction == 1)) {
+				offsetDiff -= $(node).width();
 			}
 			
 			var stepArray = new Array();
@@ -863,6 +875,111 @@
 			
 		},
 		
+		changeOffset: function(endOffset, node, slideNodes, scrollTimeouts, scrollbarClass, scrollbarWidth, stageWidth, scrollbarStageWidth, scrollMargin, scrollBorder, originalOffsets, childrenOffsets, slideNodeOuterWidths, sliderNumber, infiniteSliderWidth, numberOfSlides, centeredSlideOffset, settings) {
+		
+			helpers.autoSlidePause(sliderNumber);
+			
+			for(var j = 0; j < scrollTimeouts.length; j++) {
+				clearTimeout(scrollTimeouts[j]);
+			}
+			
+			if(!settings.infiniteSlider) {
+				endOffset = (endOffset > (sliderMin[sliderNumber] * -1 + centeredSlideOffset)) ? sliderMin[sliderNumber] * -1 + centeredSlideOffset : endOffset;
+				endOffset = (endOffset < (sliderMax[sliderNumber] * -1)) ? sliderMax[sliderNumber] * -1 : endOffset;
+			}
+			
+			var steps = Math.ceil(settings.autoSlideTransTimer / 10) + 1;
+			var startOffset = helpers.getSliderOffset(node, 'x');
+			var slide = (helpers.calcActiveOffset(settings, endOffset, childrenOffsets, stageWidth, infiniteSliderOffset, numberOfSlides, activeChildOffsets[sliderNumber], sliderNumber) + infiniteSliderOffset[sliderNumber] + numberOfSlides)%numberOfSlides;
+			var testOffsets = childrenOffsets.slice();
+			
+			if(settings.snapToChildren && !settings.infiniteSlider) {
+				endOffset = childrenOffsets[slide];
+			} else if(settings.infiniteSlider && settings.snapToChildren) {
+				while(endOffset >= testOffsets[0]) {
+					testOffsets.splice(0, 0, testOffsets[numberOfSlides-1] + $(node).width());
+					testOffsets.splice(numberOfSlides, 1);
+				}
+				
+				while(endOffset <= testOffsets[numberOfSlides-1]) {
+					testOffsets.splice(numberOfSlides, 0, testOffsets[0] - $(node).width());
+					testOffsets.splice(0, 1);
+				}
+				
+				slide = helpers.calcActiveOffset(settings, endOffset, testOffsets, stageWidth, infiniteSliderOffset, numberOfSlides, activeChildOffsets[sliderNumber], sliderNumber);
+				endOffset = testOffsets[slide];
+				
+			}
+			
+			var offsetDiff = endOffset - startOffset;
+						
+			var stepArray = new Array();
+			var t;
+			var nextStep;
+
+			helpers.showScrollbar(settings, scrollbarClass);
+
+			for(var i = 0; i <= steps; i++) {
+
+				t = i;
+				t /= steps;
+				t--;
+				nextStep = startOffset + offsetDiff*(Math.pow(t,5) + 1);
+				
+				stepArray[stepArray.length] = nextStep;
+				
+			}
+			
+			var tempOffset = (slide + infiniteSliderOffset[sliderNumber] + numberOfSlides)%numberOfSlides;
+			
+			var lastCheckOffset = 0;
+			for(var i = 0; i < stepArray.length; i++) {
+				
+				if((i == 0) || (Math.abs(stepArray[i] - lastCheckOffset) > 1) || (i >= (stepArray.length - 2))) {
+
+					lastCheckOffset	= stepArray[i];
+					
+					scrollTimeouts[i] = helpers.slowScrollHorizontalIntervalTimer(scrollIntervalTime * (i + 1), node, slideNodes, stepArray[i], scrollbarClass, scrollbarWidth, stageWidth, scrollbarStageWidth, scrollMargin, scrollBorder, slide, originalOffsets, childrenOffsets, infiniteSliderWidth, numberOfSlides, slideNodeOuterWidths, sliderNumber, centeredSlideOffset, tempOffset, settings);
+						
+				}
+				
+				if((i == 0) && (settings.onSlideStart != '')) {
+					var tempOffset = (activeChildOffsets[sliderNumber] + infiniteSliderOffset[sliderNumber] + numberOfSlides)%numberOfSlides;		
+				
+					settings.onSlideStart(new helpers.args('start', settings, node, $(node).children(':eq(' + tempOffset + ')'), tempOffset, slide));
+				}
+					
+			}
+
+			var slideChanged = false;
+			
+			if(settings.infiniteSlider) {
+				
+				if(tempOffset != activeChildInfOffsets[sliderNumber]) {
+					slideChanged = true;
+				}
+					
+			} else {
+			
+				if(slide != activeChildOffsets[sliderNumber]) {
+					slideChanged = true;
+				}
+			
+			}
+				
+			if(slideChanged && (settings.onSlideComplete != '')) {
+
+				scrollTimeouts[scrollTimeouts.length] = helpers.onSlideCompleteTimer(scrollIntervalTime * (i + 1), settings, node, $(node).children(':eq(' + tempOffset + ')'), tempOffset, sliderNumber);
+			}
+			
+			slideTimeouts[sliderNumber] = scrollTimeouts;
+			
+			helpers.hideScrollbar(settings, scrollTimeouts, i, stepArray, scrollbarClass, scrollbarWidth, stageWidth, scrollMargin, scrollBorder, sliderNumber);
+			
+			helpers.autoSlide(node, slideNodes, scrollTimeouts, scrollbarClass, scrollbarWidth, stageWidth, scrollbarStageWidth, scrollMargin, scrollBorder, originalOffsets, childrenOffsets, slideNodeOuterWidths, sliderNumber, infiniteSliderWidth, numberOfSlides, centeredSlideOffset, settings);
+			
+		},
+		
 		autoSlide: function(scrollerNode, slideNodes, scrollTimeouts, scrollbarClass, scrollbarWidth, stageWidth, scrollbarStageWidth, scrollMargin, scrollBorder, originalOffsets, childrenOffsets, slideNodeOuterWidths, sliderNumber, infiniteSliderWidth, numberOfSlides, centeredSlideOffset, settings) {
 			
 			if(!iosSliderSettings[sliderNumber].autoSlide) return false;
@@ -875,7 +992,7 @@
 					activeChildOffsets[sliderNumber] = activeChildOffsets[sliderNumber] - numberOfSlides;
 				}
 				
-				var nextSlide = (activeChildOffsets[sliderNumber] + infiniteSliderOffset[sliderNumber] + childrenOffsets.length + 1)%childrenOffsets.length;
+				var nextSlide = activeChildOffsets[sliderNumber] + infiniteSliderOffset[sliderNumber] + 1;
 
 				helpers.changeSlide(nextSlide, scrollerNode, slideNodes, scrollTimeouts, scrollbarClass, scrollbarWidth, stageWidth, scrollbarStageWidth, scrollMargin, scrollBorder, originalOffsets, childrenOffsets, slideNodeOuterWidths, sliderNumber, infiniteSliderWidth, numberOfSlides, centeredSlideOffset, settings);
 				
@@ -884,7 +1001,7 @@
 			}, settings.autoSlideTimer + settings.autoSlideTransTimer);
 			
 		},
-		
+				
 		autoSlidePause: function(sliderNumber) {
 
 			clearTimeout(autoSlideTimeouts[sliderNumber]);
@@ -930,6 +1047,57 @@
 		
 			return scrollTimeout;
 		
+		},
+		
+		updateBackfaceVisibilityTimer: function(scrollIntervalTime, slideNodes, sliderNumber, numberOfSlides, settings) {
+		
+			var scrollTimeout = setTimeout(function() {
+				helpers.updateBackfaceVisibility(slideNodes, sliderNumber, numberOfSlides, settings);
+			}, scrollIntervalTime);
+			
+			return scrollTimeout;
+			
+		},
+		
+		updateBackfaceVisibility: function(slideNodes, sliderNumber, numberOfSlides, settings) {
+
+			var slide = (activeChildOffsets[sliderNumber] + infiniteSliderOffset[sliderNumber] + numberOfSlides)%numberOfSlides;
+			var usedSlideArray = Array();
+			
+			//loop through buffered slides
+			for(var i = 0; i < (settings.hardwareAccelBuffer * 2); i++) {
+				
+				var slide_eq = helpers.mod(slide+i-settings.hardwareAccelBuffer, numberOfSlides);
+				
+				//check if backface visibility applied
+				if($(slideNodes).eq(slide_eq).css('-webkit-backface-visibility') == 'visible') {
+					
+					usedSlideArray[usedSlideArray.length] = slide_eq;
+					
+					var eq_h = helpers.mod(slide_eq+settings.hardwareAccelBuffer*2, numberOfSlides);
+					var eq_l = helpers.mod(slide_eq-settings.hardwareAccelBuffer*2, numberOfSlides);
+					
+					//buffer backface visibility
+					$(slideNodes).eq(slide_eq).css('-webkit-backface-visibility', 'hidden');
+					
+					if(usedSlideArray.indexOf(eq_l) == -1) 
+						$(slideNodes).eq(eq_l).css('-webkit-backface-visibility', '');
+						
+					if(usedSlideArray.indexOf(eq_h) == -1) 
+						$(slideNodes).eq(eq_h).css('-webkit-backface-visibility', '');
+					
+				}
+				
+			}
+			
+		},
+		
+		mod: function(x, mod) {
+		
+			var rem = x % mod;
+			
+		    return rem < 0 ? rem + mod : rem;
+			
 		},
 						
 		args: function(func, settings, node, activeSlideNode, newChildOffset, targetSlideOffset) {
@@ -999,6 +1167,7 @@
 				'scrollbar': false,
 				'scrollbarDrag': false,
 				'scrollbarHide': true,
+				'scrollbarPaging': false,
 				'scrollbarLocation': 'top',
 				'scrollbarContainer': '',
 				'scrollbarOpacity': 0.4,
@@ -1027,6 +1196,7 @@
 				'slideStartVelocityThreshold': 0,
 				'horizontalSlideLockThreshold': 5,
 				'verticalSlideLockThreshold': 3,
+				'hardwareAccelBuffer': 5,
 				'stageCSS': {
 					position: 'relative',
 					top: '0',
@@ -1120,14 +1290,12 @@
 				var data = $this.data('iosslider');	
 				if(data != undefined) return true;
 
-				var xArray = ['d', 'e', 'm', 'o', ' ', 'v', 'e', 'r', 's', 'i', 'o', 'n'];
-				var xClass = Math.floor(Math.random()*12317);
-				$(scrollerNode).parent().append("<i class = 'i" + xClass + "'></i>").append("<i class = 'i" + xClass + "'></i>");
-				$('.i' + xClass).css({ position: 'absolute', right: '10px', bottom: '10px', zIndex: 1000, fontStyle: 'normal', background: '#fff', opacity: 0.2 }).eq(1).css({ bottom: 'auto', right: 'auto', top: '10px', left: '10px' });
-				for(var i = 0; i < xArray.length; i++) { $('.i' + xClass).html($('.i' + xClass).html() + xArray[i]); }
-
-           		$(this).find('img').bind('dragstart.iosSliderEvent', function(event) { event.preventDefault(); });
-
+				if(parseInt($().jquery.split('.').join(''), 10) >= 14.2) {
+					$(this).delegate('img', 'dragstart.iosSliderEvent', function(event) { event.preventDefault(); });	
+				} else {
+					$(this).find('img').bind('dragstart.iosSliderEvent', function(event) { event.preventDefault(); });
+				}
+		   		
 				if(settings.infiniteSlider) {
 					settings.scrollbar = false;
 				}
@@ -1240,7 +1408,6 @@
 						}
 						
 						$(slideNodes[j]).css({
-							'webkitBackfaceVisibility': 'hidden',
 							overflow: 'hidden',
 							position: 'absolute'
 						});
@@ -1427,6 +1594,8 @@
 					}
 					
 					helpers.setSliderOffset(scrollerNode, childrenOffsets[activeChildOffsets[sliderNumber]]);
+					
+					helpers.updateBackfaceVisibility(slideNodes, sliderNumber, numberOfSlides, settings);
 					
 					if(!settings.desktopClickDrag) {
 						
@@ -1674,6 +1843,26 @@
 				
 				}
 				
+				if(settings.scrollbarPaging && settings.scrollbar && !shortContent) {
+					
+					$(scrollbarBlockNode).css('cursor', 'pointer');
+					
+					$(scrollbarBlockNode).bind('click.iosSliderEvent', function(e) {
+						
+						if(this == e.target) {
+							
+							if(e.pageX > $(scrollbarNode).offset().left) {
+								methods.nextPage(stageNode);
+							} else {
+								methods.prevPage(stageNode);
+							}
+							
+						}
+					
+					});
+					
+				}
+				
 				if(iosSliderSettings[sliderNumber].responsiveSlides || iosSliderSettings[sliderNumber].responsiveSlideContainer) {
 					
 					var orientationEvent = supportsOrientationChange ? 'orientationchange' : 'resize';
@@ -1699,6 +1888,8 @@
 						if((!isIe7) && (!isIe8)) {
 							var e = e.originalEvent;
 						}
+						
+						if(e.target.nodeName == 'INPUT') return true;
 						
 						if(touchLocks[sliderNumber]) return true;
 						
@@ -1727,10 +1918,11 @@
 					});
 					
 				}
-					
+
 				if(isTouch || settings.desktopClickDrag) {
 					
 					var touchStartFlag = false;
+					var touchEndFlag = false;
 					var touchSelection = $(scrollerNode);
 					var touchSelectionMove = $(scrollerNode);
 					var preventDefault = null;
@@ -1745,8 +1937,12 @@
 					
 					$(touchSelection).bind('mousedown.iosSliderEvent touchstart.iosSliderEvent', function(e) {
 						
+						//if scroll starts, unbind dom from slider touch override
+						$(window).one('scroll.iosSliderEvent', function(e) { touchStartFlag = false; });
+						
 						if(touchStartFlag) return true;
 						touchStartFlag = true;
+						touchEndFlag = false;
 						
 						if(e.type == 'touchstart') {
 							$(touchSelectionMove).unbind('mousedown.iosSliderEvent');
@@ -1857,7 +2053,7 @@
 					});
 					
 					$(document).bind('touchmove.iosSliderEvent mousemove.iosSliderEvent', function(e) {
-					
+						
 						if((!isIe7) && (!isIe8)) {
 							var e = e.originalEvent;
 						}
@@ -2177,6 +2373,8 @@
 									settings.onSlideChange(args);
 								}
 								
+								helpers.updateBackfaceVisibility(slideNodes, sliderNumber, numberOfSlides, settings);
+								
 							}
 							
 						}
@@ -2184,14 +2382,17 @@
 					});
 					
 					var eventObject = $(window);
-
+					
 					if(isIe8 || isIe7) {
 						var eventObject = $(document); 
 					}
 					
-					$(touchSelection).bind('touchend.iosSliderEvent', function(e) {
+					$(touchSelection).bind('touchcancel.iosSliderEvent touchend.iosSliderEvent', function(e) {
 						
 						var e = e.originalEvent;
+						
+						if(touchEndFlag) return false;
+						touchEndFlag = true;
 						
 						if(touchLocks[sliderNumber] || shortContent) return true;
 						
@@ -2216,6 +2417,8 @@
 						preventXScroll = false;
 						touchStartFlag = false;
 						
+						return true;
+						
 					});
 						
 					$(eventObject).bind('mouseup.iosSliderEvent-' + sliderNumber, function(e) {
@@ -2232,8 +2435,8 @@
 								if(xScrollStarted) { 
 									return false;
 								}
-							
-								$(this).data('onclick').call(this, event || window.event);
+								
+								if($(this).data('onclick')) $(this).data('onclick').call(this, event || window.event);
 							}
 							
 							this.onclick = $(this).data('onclick');
@@ -2299,11 +2502,18 @@
 						if(!isEventCleared[sliderNumber]) {
 						
 							if(shortContent) return true;
-							if(touchLocks[sliderNumber]) return true;
 							
-							$(touchSelection).css({
-								cursor: grabOutCursor
-							});
+							if(settings.desktopClickDrag) {
+								$(scrollerNode).css({
+									cursor: grabOutCursor
+								});
+							}
+							
+							if(settings.scrollbarDrag) {
+								$(scrollbarNode).css({
+									cursor: grabOutCursor
+								});
+							}
 							
 							isMouseDown = false;
 							
@@ -2352,12 +2562,13 @@
 		    	$(this).unbind('.iosSliderEvent');
 	    		$(this).children(':first-child').unbind('.iosSliderEvent');
 	    		$(this).children(':first-child').children().unbind('.iosSliderEvent');
+		    	$(data.settings.scrollbarBlockNode).unbind('.iosSliderEvent');
 		    	
 		    	if(clearStyle) {
 	    			$(this).attr('style', '');
 		    		$(this).children(':first-child').attr('style', '');
 		    		$(this).children(':first-child').children().attr('style', '');
-		    		
+
 		    		$(data.settings.navSlideSelector).attr('style', '');
 		    		$(data.settings.navPrevSelector).attr('style', '');
 		    		$(data.settings.navNextSelector).attr('style', '');
@@ -2478,6 +2689,8 @@
 				if(activeChildOffsets[data.sliderNumber] > (slideNumber - 1)) {
 					activeChildOffsets[data.sliderNumber]--;
 				}
+				
+				$this.data('iosslider').numberOfSlides--;
 
 				methods.update(this);
 			
@@ -2485,7 +2698,7 @@
 		
 		},
 		
-		goToSlide: function(slide, node) {
+		goToSlide: function(slide, duration, node) {
 			
 			if(node == undefined) {
 				node = this;
@@ -2499,6 +2712,9 @@
 				if((data == undefined) || data.shortContent) return false;
 				
 				slide = (slide > data.childrenOffsets.length) ? data.childrenOffsets.length - 1 : slide - 1;
+
+				if(duration != undefined)
+					data.settings.autoSlideTransTimer = duration;
 				
 				helpers.changeSlide(slide, $(data.scrollerNode), $(data.slideNodes), slideTimeouts[data.sliderNumber], data.scrollbarClass, data.scrollbarWidth, data.stageWidth, data.scrollbarStageWidth, data.scrollMargin, data.scrollBorder, data.originalOffsets, data.childrenOffsets, data.slideNodeOuterWidths, data.sliderNumber, data.infiniteSliderWidth, data.numberOfSlides, data.centeredSlideOffset, data.settings);
 
@@ -2506,7 +2722,7 @@
 			
 		},
 		
-		prevSlide: function() {
+		prevSlide: function(duration) {
 			
 			return this.each(function() {
 					
@@ -2515,6 +2731,9 @@
 				if((data == undefined) || data.shortContent) return false;
 				
 				var slide = (activeChildOffsets[data.sliderNumber] + infiniteSliderOffset[data.sliderNumber] + data.numberOfSlides)%data.numberOfSlides;
+				
+				if(duration != undefined)
+					data.settings.autoSlideTransTimer = duration;
 				
 				if((slide > 0) || data.settings.infiniteSlider) {
 					helpers.changeSlide(slide - 1, $(data.scrollerNode), $(data.slideNodes), slideTimeouts[data.sliderNumber], data.scrollbarClass, data.scrollbarWidth, data.stageWidth, data.scrollbarStageWidth, data.scrollMargin, data.scrollBorder, data.originalOffsets, data.childrenOffsets, data.slideNodeOuterWidths, data.sliderNumber, data.infiniteSliderWidth, data.numberOfSlides, data.centeredSlideOffset, data.settings);
@@ -2526,7 +2745,7 @@
 			
 		},
 		
-		nextSlide: function() {
+		nextSlide: function(duration) {
 			
 			return this.each(function() {
 					
@@ -2536,6 +2755,9 @@
 				
 				var slide = (activeChildOffsets[data.sliderNumber] + infiniteSliderOffset[data.sliderNumber] + data.numberOfSlides)%data.numberOfSlides;
 				
+				if(duration != undefined)
+					data.settings.autoSlideTransTimer = duration;
+				
 				if((slide < data.childrenOffsets.length-1) || data.settings.infiniteSlider) {
 					helpers.changeSlide(slide + 1, $(data.scrollerNode), $(data.slideNodes), slideTimeouts[data.sliderNumber], data.scrollbarClass, data.scrollbarWidth, data.stageWidth, data.scrollbarStageWidth, data.scrollMargin, data.scrollBorder, data.originalOffsets, data.childrenOffsets, data.slideNodeOuterWidths, data.sliderNumber, data.infiniteSliderWidth, data.numberOfSlides, data.centeredSlideOffset, data.settings);
 				}
@@ -2544,6 +2766,52 @@
 
 			});
 			
+		},
+		
+		prevPage: function(duration, node) {
+			
+			if(node == undefined) {
+				node = this;
+			}
+			
+			return $(node).each(function() {
+
+				var $this = $(this);
+				var data = $this.data('iosslider');
+				if(data == undefined) return false;
+				
+				var newOffset = helpers.getSliderOffset(data.scrollerNode, 'x') + data.stageWidth;
+				
+				if(duration != undefined)
+					data.settings.autoSlideTransTimer = duration;
+				
+				helpers.changeOffset(newOffset, $(data.scrollerNode), $(data.slideNodes), slideTimeouts[data.sliderNumber], data.scrollbarClass, data.scrollbarWidth, data.stageWidth, data.scrollbarStageWidth, data.scrollMargin, data.scrollBorder, data.originalOffsets, data.childrenOffsets, data.slideNodeOuterWidths, data.sliderNumber, data.infiniteSliderWidth, data.numberOfSlides, data.centeredSlideOffset, data.settings);
+			
+			});
+		
+		},
+		
+		nextPage: function(duration, node) {
+			
+			if(node == undefined) {
+				node = this;
+			}
+			
+			return $(node).each(function() {
+
+				var $this = $(this);
+				var data = $this.data('iosslider');
+				if(data == undefined) return false;
+				
+				var newOffset = helpers.getSliderOffset(data.scrollerNode, 'x') - data.stageWidth;
+				
+				if(duration != undefined)
+					data.settings.autoSlideTransTimer = duration;
+				
+				helpers.changeOffset(newOffset, $(data.scrollerNode), $(data.slideNodes), slideTimeouts[data.sliderNumber], data.scrollbarClass, data.scrollbarWidth, data.stageWidth, data.scrollbarStageWidth, data.scrollMargin, data.scrollBorder, data.originalOffsets, data.childrenOffsets, data.slideNodeOuterWidths, data.sliderNumber, data.infiniteSliderWidth, data.numberOfSlides, data.centeredSlideOffset, data.settings);
+			
+			});
+		
 		},
 		
 		lock: function() {
