@@ -9,7 +9,7 @@
     <?php } ?>
 <?php } ?>
 
-<html <?php language_attributes(); ?> class="YC-html">
+<html b:js='false' <?php language_attributes(); ?> class="YC-html">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <link rel="shortcut icon" href="<?php echo get_option('favicon')?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -125,7 +125,7 @@
 
 
 <link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri()?>/style.css" />
-<script defer src="<?=get_template_directory_uri()?>/js/all.min.js" ></script>
+<script  src="<?=get_template_directory_uri()?>/js/all.min.js" ></script>
 
 
 
@@ -135,11 +135,11 @@
 	
 <link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri()?>/css/mediascreen.css" />
 
-<script type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery-1.8.3.js"></script>
-<script type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.carouFredSel-6.2.1-packed.js"></script>
-<script type="text/javascript" src="<?=get_template_directory_uri()?>/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.iosslider.js"></script>
-<script type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.honeycombs.js"></script>
+<script  type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery-1.8.3.js"></script>
+<script  type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script  type="text/javascript" src="<?=get_template_directory_uri()?>/js/owl.carousel.min.js"></script>
+<script  type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.iosslider.js"></script>
+<script  type="text/javascript" src="<?=get_template_directory_uri()?>/js/jquery.honeycombs.js"></script>
 
 
 <script>

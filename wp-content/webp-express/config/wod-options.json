@@ -1,7 +1,7 @@
 {
     "wod": {
-        "enable-redirection-to-converter": false,
-        "enable-redirection-to-webp-realizer": false,
+        "enable-redirection-to-converter": true,
+        "enable-redirection-to-webp-realizer": true,
         "base-htaccess-on-these-capability-tests": {
             "passThroughHeaderWorking": false,
             "passThroughEnvWorking": false,
