@@ -19,9 +19,9 @@
 # - Document root availablity: Available and its "realpath" is available too. Can be used for structuring cache dir.
 #
 # .htaccess capability test results:
-# - mod_header working?: no
+# - mod_header working?: could not be determined
 # - pass variable from .htaccess to script through header working?: no
-# - pass variable from .htaccess to script through environment variable working?: no
+# - pass variable from .htaccess to script through environment variable working?: could not be determined
 #
 # Role of the dir that this .htaccess is located in:
 # - Is this .htaccess in a dir containing source images?: yes
@@ -36,12 +36,12 @@
   # Redirect to existing converted image in same dir (if browser supports webp)
   RewriteCond %{HTTP_ACCEPT} image/webp
   RewriteCond %{REQUEST_FILENAME}.webp -f
-  RewriteRule ^/?(.*)\.(jpe?g|png)$ $1.$2.webp [NC,T=image/webp,E=EXISTING:1,L]
+  RewriteRule ^/?(.*)\.(jpe?g|png)$ $1.$2.webp [NC,T=image/webp,E=EXISTING:1,E=ADDVARY:1,L]
 
   # Redirect images to webp-on-demand.php (if browser supports webp)
   RewriteCond %{HTTP_ACCEPT} image/webp
   RewriteCond %{REQUEST_FILENAME} -f
-  RewriteRule ^/?(.+)\.(jpe?g|png)$ /wp-content/plugins/webp-express/wod/webp-on-demand.php?xsource-rel=xwp-content/uploads/$1.$2&wp-content=wp-content [NC,L,E=REQFN:%{REQUEST_FILENAME},E=WPCONTENT:wp-content]
+  RewriteRule ^/?(.+)\.(jpe?g|png)$ /wp-content/plugins/webp-express/wod2/webp-on-demand.php?xsource-rel=xwp-content/uploads/$1.$2&wp-content=wp-content [NC,L,E=REQFN:%{REQUEST_FILENAME},E=WPCONTENT:wp-content]
 
   # Make sure that browsers which does not support webp also gets the Vary:Accept header
   # when requesting images that would be redirected to webp on browsers that does.
@@ -61,7 +61,7 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^/?(.+)\.(webp)$ /wp-content/plugins/webp-express/wod/webp-realizer.php?xdestination-rel=xwp-content/uploads/$1.$2&wp-content=wp-content [E=DESTINATIONREL:wp-content/uploads/$0,E=WPCONTENT:wp-content,NC,L]
+  RewriteRule ^/?(.+)\.(webp)$ /wp-content/plugins/webp-express/wod2/webp-realizer.php?xdestination-rel=xwp-content/uploads/$1.$2&wp-content=wp-content [E=DESTINATIONREL:wp-content/uploads/$0,E=WPCONTENT:wp-content,NC,L]
 
 </IfModule>
 
@@ -87,9 +87,3 @@
 </IfModule>
 
 # END WebP Express
-# BEGIN ShortPixelWebp
-# The directives (lines) between "BEGIN ShortPixelWebp" and "END ShortPixelWebp" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-
-# END ShortPixelWebp
