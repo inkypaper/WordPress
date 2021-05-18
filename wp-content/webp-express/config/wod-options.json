@@ -4,10 +4,10 @@
         "enable-redirection-to-webp-realizer": true,
         "base-htaccess-on-these-capability-tests": {
             "passThroughHeaderWorking": false,
-            "passThroughEnvWorking": false,
-            "modHeaderWorking": false,
-            "canRunTestScriptInWOD": true,
-            "canRunTestScriptInWOD2": true
+            "passThroughEnvWorking": null,
+            "modHeaderWorking": null,
+            "canRunTestScriptInWOD": null,
+            "canRunTestScriptInWOD2": null
         },
         "destination-extension": "append",
         "destination-folder": "mingled",
@@ -16,27 +16,27 @@
             {
                 "id": "uploads",
                 "rel-path": "wp-content/uploads",
-                "url": "http://localhost/wp-content/uploads"
+                "url": "https://site.test/wp-content/uploads"
             },
             {
                 "id": "themes",
                 "rel-path": "wp-content/themes",
-                "url": "http://localhost/wp-content/themes"
+                "url": "https://site.test/wp-content/themes"
             },
             {
                 "id": "plugins",
                 "rel-path": "wp-content/plugins",
-                "url": "http://localhost/wp-content/plugins"
+                "url": "https://site.test/wp-content/plugins"
             },
             {
                 "id": "wp-content",
                 "rel-path": "wp-content",
-                "url": "http://localhost/wp-content"
+                "url": "https://site.test/wp-content"
             },
             {
                 "id": "index",
                 "rel-path": ".",
-                "url": "http://localhost"
+                "url": "https://site.test"
             }
         ],
         "success-response": "converted"

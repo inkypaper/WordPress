@@ -1,4 +1,4 @@
-WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:52:53
+WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-18 01:37:02
 
 *WebP Convert 2.3.2*  ignited.
 - PHP version: 8.0.3
@@ -96,31 +96,31 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
 Saving file 'C:\inetpub\wwwroot/wp-content/webp-express/webp-images/uploads/2021\05\logo.png.webp.lossy.webp'
 File:      C:\inetpub\wwwroot/wp-content/uploads/2021/05/logo.png
 Dimension: 373 x 210 (with alpha)
-Output:    30390 bytes Y-U-V-All-PSNR 42.76 40.73 40.70   41.97 dB
-           (3.10 bpp)
-block count:  intra4:        207  (61.61%)
-              intra16:       129  (38.39%)
-              skipped:       116  (34.52%)
-bytes used:  header:            328  (1.1%)
-             mode-partition:   1277  (4.2%)
-             transparency:    12398 (55.1 dB)
+Output:    38366 bytes Y-U-V-All-PSNR 42.38 40.36 40.16   41.55 dB
+           (3.92 bpp)
+block count:  intra4:        201  (59.82%)
+              intra16:       135  (40.18%)
+              skipped:       119  (35.42%)
+bytes used:  header:            356  (0.9%)
+             mode-partition:   1215  (3.2%)
+             transparency:    17248 (99.0 dB)
  Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
-  intra4-coeffs:  |   11435 |      40 |      53 |       0 |   11528  (37.9%)
- intra16-coeffs:  |     132 |       0 |       0 |       0 |     132  (0.4%)
-  chroma coeffs:  |    4516 |      35 |     120 |       0 |    4671  (15.4%)
-    macroblocks:  |      77%|       1%|       2%|      20%|     336
-      quantizer:  |      16 |      12 |       8 |       8 |
+  intra4-coeffs:  |   14617 |      26 |       0 |       0 |   14643  (38.2%)
+ intra16-coeffs:  |      79 |      21 |       0 |       1 |     101  (0.3%)
+  chroma coeffs:  |    4681 |      66 |       0 |       2 |    4749  (12.4%)
+    macroblocks:  |      78%|       1%|       0%|      21%|     336
+      quantizer:  |      16 |      13 |       9 |       8 |
    filter level:  |       5 |       3 |       2 |       0 |
 ------------------+---------+---------+---------+---------+-----------------
- segments total:  |   16083 |      75 |     173 |       0 |   16331  (53.7%)
-Lossless-alpha compressed size: 12397 bytes
-  * Header size: 540 bytes, image data size: 11857
-  * Lossless features used: PREDICTION
+ segments total:  |   19377 |     113 |       0 |       3 |   19493  (50.8%)
+Lossless-alpha compressed size: 17247 bytes
+  * Header size: 401 bytes, image data size: 16846
+  * Lossless features used: PALETTE
   * Precision Bits: histogram=3 transform=3 cache=0
-  * Palette size:   95
+  * Palette size:   77
 
 Success
-Reduction: 76% (went from 125 kb to 30 kb)
+Reduction: -34% (went from 28 kb to 37 kb)
 
 Converting to lossless
 Looking for cwebp binaries.
@@ -153,17 +153,18 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
 Saving file 'C:\inetpub\wwwroot/wp-content/webp-express/webp-images/uploads/2021\05\logo.png.webp.lossless.webp'
 File:      C:\inetpub\wwwroot/wp-content/uploads/2021/05/logo.png
 Dimension: 373 x 210
-Output:    68620 bytes (7.01 bpp)
-Lossless-ARGB compressed size: 68620 bytes
-  * Header size: 1870 bytes, image data size: 66724
-  * Lossless features used: PREDICTION CROSS-COLOR-TRANSFORM SUBTRACT-GREEN
-  * Precision Bits: histogram=3 transform=3 cache=1
+Output:    25636 bytes (2.62 bpp)
+Lossless-ARGB compressed size: 25636 bytes
+  * Header size: 1162 bytes, image data size: 24449
+  * Lossless features used: PALETTE
+  * Precision Bits: histogram=3 transform=3 cache=2
+  * Palette size:   173
 
 Success
-Reduction: 47% (went from 125 kb to 67 kb)
+Reduction: 11% (went from 28 kb to 25 kb)
 
-Picking lossy
+Picking lossless
 cwebp succeeded :)
 
-Converted image in 792 ms, reducing file size with 76% (went from 125 kb to 30 kb)
+Converted image in 1949 ms, reducing file size with 11% (went from 28 kb to 25 kb)
 

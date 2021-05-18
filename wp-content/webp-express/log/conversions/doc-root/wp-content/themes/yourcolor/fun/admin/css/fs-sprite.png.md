@@ -1,4 +1,4 @@
-WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:55:00
+WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-18 01:38:51
 
 *WebP Convert 2.3.2*  ignited.
 - PHP version: 8.0.3
@@ -97,23 +97,23 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
 Saving file 'C:\inetpub\wwwroot/wp-content/webp-express/webp-images/themes/yourcolor\fun\admin\css\fs-sprite.png.webp.lossy.webp'
 File:      C:\inetpub\wwwroot/wp-content/themes/yourcolor/fun/admin/css/fs-sprite.png
 Dimension: 36 x 24 (with alpha)
-Output:    212 bytes Y-U-V-All-PSNR 48.89 99.00 99.00   50.65 dB
-           (1.96 bpp)
+Output:    216 bytes Y-U-V-All-PSNR 48.65 99.00 99.00   50.41 dB
+           (2.00 bpp)
 block count:  intra4:          2  (33.33%)
               intra16:         4  (66.67%)
               skipped:         2  (33.33%)
-bytes used:  header:             11  (5.2%)
-             mode-partition:     13  (6.1%)
+bytes used:  header:             11  (5.1%)
+             mode-partition:     14  (6.5%)
              transparency:       41 (99.0 dB)
  Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
-  intra4-coeffs:  |      81 |       0 |       0 |       0 |      81  (38.2%)
- intra16-coeffs:  |       6 |       0 |       0 |       0 |       6  (2.8%)
+  intra4-coeffs:  |      84 |       0 |       0 |       0 |      84  (38.9%)
+ intra16-coeffs:  |       7 |       0 |       0 |       0 |       7  (3.2%)
   chroma coeffs:  |       0 |       0 |       0 |       0 |       0  (0.0%)
     macroblocks:  |      100%|       0%|       0%|       0%|       6
       quantizer:  |      14 |      14 |      14 |      14 |
    filter level:  |       4 |       4 |       4 |       4 |
 ------------------+---------+---------+---------+---------+-----------------
- segments total:  |      87 |       0 |       0 |       0 |      87  (41.0%)
+ segments total:  |      91 |       0 |       0 |       0 |      91  (42.1%)
 Lossless-alpha compressed size: 40 bytes
   * Header size: 26 bytes, image data size: 14
   * Lossless features used: PALETTE
@@ -121,7 +121,7 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
   * Palette size:   2
 
 Success
-Reduction: 81% (went from 1100 bytes to 212 bytes)
+Reduction: -34% (went from 161 bytes to 216 bytes)
 
 Converting to lossless
 Looking for cwebp binaries.
@@ -162,10 +162,10 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
   * Palette size:   14
 
 Success
-Reduction: 86% (went from 1100 bytes to 152 bytes)
+Reduction: 6% (went from 161 bytes to 152 bytes)
 
 Picking lossless
 cwebp succeeded :)
 
-Converted image in 602 ms, reducing file size with 86% (went from 1100 bytes to 152 bytes)
+Converted image in 765 ms, reducing file size with 6% (went from 161 bytes to 152 bytes)
 

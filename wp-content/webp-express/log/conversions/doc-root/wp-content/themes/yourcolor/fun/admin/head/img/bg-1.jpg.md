@@ -1,4 +1,4 @@
-WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:55:02
+WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-18 01:38:54
 
 *WebP Convert 2.3.2*  ignited.
 - PHP version: 8.0.3
@@ -97,25 +97,25 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
 Saving file 'C:\inetpub\wwwroot/wp-content/webp-express/webp-images/themes/yourcolor\fun\admin\head\img\bg-1.jpg.webp.lossy.webp'
 File:      C:\inetpub\wwwroot/wp-content/themes/yourcolor/fun/admin/head/img/bg-1.jpg
 Dimension: 1000 x 625
-Output:    12726 bytes Y-U-V-All-PSNR 42.33 47.24 47.15   43.44 dB
+Output:    12238 bytes Y-U-V-All-PSNR 42.56 47.32 47.47   43.66 dB
            (0.16 bpp)
-block count:  intra4:        852  (33.81%)
-              intra16:      1668  (66.19%)
-              skipped:       692  (27.46%)
-bytes used:  header:            113  (0.9%)
-             mode-partition:   3833  (30.1%)
+block count:  intra4:        696  (27.62%)
+              intra16:      1824  (72.38%)
+              skipped:       770  (30.56%)
+bytes used:  header:            101  (0.8%)
+             mode-partition:   3772  (30.8%)
  Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
-  intra4-coeffs:  |    4931 |     345 |     201 |      70 |    5547  (43.6%)
- intra16-coeffs:  |     195 |     144 |     250 |    1110 |    1699  (13.4%)
-  chroma coeffs:  |     472 |     114 |     149 |     771 |    1506  (11.8%)
-    macroblocks:  |      21%|       4%|       7%|      67%|    2520
+  intra4-coeffs:  |    4882 |     345 |     194 |      85 |    5506  (45.0%)
+ intra16-coeffs:  |     295 |     154 |     227 |     696 |    1372  (11.2%)
+  chroma coeffs:  |     478 |     111 |     137 |     732 |    1458  (11.9%)
+    macroblocks:  |      23%|       4%|       6%|      67%|    2520
       quantizer:  |      39 |      36 |      29 |      22 |
-   filter level:  |      41 |      31 |      25 |      20 |
+   filter level:  |      63 |      23 |      19 |      20 |
 ------------------+---------+---------+---------+---------+-----------------
- segments total:  |    5598 |     603 |     600 |    1951 |    8752  (68.8%)
+ segments total:  |    5655 |     610 |     558 |    1513 |    8336  (68.1%)
 
 Success
-Reduction: 94% (went from 210 kb to 12 kb)
+Reduction: 94% (went from 200 kb to 12 kb)
 
 Converting to lossless
 Looking for cwebp binaries.
@@ -148,17 +148,17 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
 Saving file 'C:\inetpub\wwwroot/wp-content/webp-express/webp-images/themes/yourcolor\fun\admin\head\img\bg-1.jpg.webp.lossless.webp'
 File:      C:\inetpub\wwwroot/wp-content/themes/yourcolor/fun/admin/head/img/bg-1.jpg
 Dimension: 1000 x 625
-Output:    286448 bytes (3.67 bpp)
-Lossless-ARGB compressed size: 286448 bytes
-  * Header size: 4289 bytes, image data size: 282133
+Output:    263586 bytes (3.37 bpp)
+Lossless-ARGB compressed size: 263586 bytes
+  * Header size: 3808 bytes, image data size: 259753
   * Lossless features used: PREDICTION CROSS-COLOR-TRANSFORM SUBTRACT-GREEN
   * Precision Bits: histogram=4 transform=4 cache=10
 
 Success
-Reduction: -33% (went from 210 kb to 280 kb)
+Reduction: -29% (went from 200 kb to 257 kb)
 
 Picking lossy
 cwebp succeeded :)
 
-Converted image in 1487 ms, reducing file size with 94% (went from 210 kb to 12 kb)
+Converted image in 1988 ms, reducing file size with 94% (went from 200 kb to 12 kb)
 

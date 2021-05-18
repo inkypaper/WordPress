@@ -27,7 +27,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Sat, 15 May 2021 19:53:45 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">/?p=105</guid>
+		<guid isPermaLink="false">http://localhost/?p=105</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[]]></content:encoded>
@@ -47,10 +47,66 @@
 				<category><![CDATA[Movies - افلام]]></category>
 		<category><![CDATA[Comedy]]></category>
 		<category><![CDATA[Horror]]></category>
-		<guid isPermaLink="false">/?p=53</guid>
+		<guid isPermaLink="false">http://localhost/?p=53</guid>
 
-					<description><![CDATA[[WP-Coder id="2"] [addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]]]></description>
-										<content:encoded><![CDATA[<p><span id="wow-shortcode"><code>[WP-Coder id="2"]</code></span></p>
+					<description><![CDATA[[addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]]]></description>
+										<content:encoded><![CDATA[<p><span id="wow-shortcode"><code>  
+
+
+<div class="wrap">
+
+  <ul class="tabs group">
+		<li> <a white-space= nowrap href="#/one"  >  
+			
+			<i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
+		<li>
+<a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
+		<li>
+<a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
+<li  white-space= "nowrap">
+<a  class="active"  href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
+	</ul>
+ <div id="panels">
+ <p  style="text-align:center;" id="four"><strong>
+			بورا وكاتاني فتيان من القرية، يصادفان في طريقهما رجل يدعى روحي، وبسبب سلسلة من الظروف الغريبة، يضطران للبقاء مع روحي في إحدى الغابات، لكنهما يلاحظان أن روحي يعاني من انفصام في الشخصية.
+			</strong>
+	 </p>
+	 
+	 
+	 	 <p id="three"> <iframe  src="https://www.imdb.com/videoembed/vi4064723225/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+	
+	 
+	   <p id="two">
+
+		<video   controls src="https://archive.org/download/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4"  class="playr_video">
+<track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/subtitles/Roohi.vtt" default />
+</video>
+			</p>
+	 
+	 
+	     <p id="one"><br/>
+	<button class="button button2"><a href="https://ia801507.us.archive.org/10/items/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4" target="_blank" download="">التحميل</a></button> <br/> <button class="button button2"><a href="https://www.citycima.tk/subtitles/Roohi.vtt" target="_blank" download="" >  الترجمة </a></button> 
+	 </p>
+	 
+	 
+	 
+  
+	 
+	 
+	 
+
+	 
+	 
+	 
+	 
+	
+  </div>
+</div>
+	
+	
+
+        </div>
+</code></span></p>
 <p>[addthis tool=&#8221;addthis_inline_share_toolbox_kvdp&#8221;]</p>
 ]]></content:encoded>
 					
@@ -67,7 +123,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 05 May 2021 19:40:00 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">/?p=15</guid>
+		<guid isPermaLink="false">http://localhost/?p=15</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<p><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video"><track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default /></video></p>
@@ -87,11 +143,11 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Wed, 05 May 2021 13:16:01 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">/?p=11</guid>
+		<guid isPermaLink="false">http://localhost/?p=11</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="/wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar"/></video></figure>
+<figure class="wp-block-video"><video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4"><track src="http://localhost/wp-content/uploads/2021/05/SubtitleTools.com-The.Vault_.2021.vtt" label="Arabic" srclang="ar"/></video></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/11/feed/</wfw:commentRss>
@@ -108,10 +164,68 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 04 May 2021 18:35:00 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">/?p=8</guid>
+		<guid isPermaLink="false">http://localhost/?p=8</guid>
 
-					<description><![CDATA[[WP-Coder id=&#8221;1&#8243;]]]></description>
-										<content:encoded><![CDATA[<p>	[WP-Coder id=&#8221;1&#8243;]</p>
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p>	  
+
+
+<div class="wrap">
+
+  <ul class="tabs group">
+		<li> <a white-space= nowrap href="#/one"  >  
+			
+			<i class="material-icons">cloud_download</i>   <strong> تحميل  </strong> </a> </li>
+		<li>
+<a href="#/two">  <i class="material-icons">play_arrow</i><strong>  مشاهدة    </strong></a> </li>
+		<li>
+<a href="#/three">     <i class="material-icons">movie</i> <strong>   الإعلان </strong></a>  </li>
+<li  white-space= "nowrap">
+<a  class="active"  href="#/four"> <i class="material-icons">apps</i><strong>  معلومات</strong> </a>    </li>
+	</ul>
+ <div id="panels">
+ <p  style="text-align:center;" id="four"><strong>
+			
+			في إطار من الرعب والغموض، تقع علاقة متدهورة بين زوجين تحت الاختبار، حينما يتعرضا للاحتجاز كرهائن في منزل مؤجر بعطلة منعزلة بواسطة صوت غير مرئي يراقب ويتحكم في كافة تحركاتهما.
+			
+			</strong>
+	 </p>
+	 
+	 
+	 	 <p id="three"> <iframe src="https://www.imdb.com/videoembed/vi2579349529/" allowfullscreen="" scrolling="no" width="320px" height="220px"></iframe> </p>
+	
+	 
+	   <p  id="two">
+
+		<video controls src="https://archive.org/download/waydown_202105/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG%5BTGx%5D/Way.Down.2021.720p.WEBRip.800MB.x264-GalaxyRG.mp4" class="playr_video">
+<track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/vault.vtt" default />
+</video>
+			</p>
+	 
+	 
+	     <p id="one">
+	<button class="button button2"><a href="https://file-link.net/234732/held" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">التحميل</a></button> <br><button class="button button2"><a href="https://file-link.net/234732/herdsub" target="_blank" data-wpel-link="external" rel="nofollow external noopener noreferrer">الترجمة</a></button><br>
+	 </p>
+	 
+	 
+	 
+  
+	 
+	 
+	 
+
+	 
+	 
+	 
+	 
+	
+  </div>
+</div>
+	
+	
+
+        </div>
+</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>/8/feed/</wfw:commentRss>
@@ -127,7 +241,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 04 May 2021 17:48:08 +0000</pubDate>
 				<category><![CDATA[غير مصنف]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">http://localhost/?p=1</guid>
 
 					<description><![CDATA[مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!]]></description>
 										<content:encoded><![CDATA[

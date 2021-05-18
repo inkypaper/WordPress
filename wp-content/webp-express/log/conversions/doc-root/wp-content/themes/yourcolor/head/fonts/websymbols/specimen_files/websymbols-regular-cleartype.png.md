@@ -1,4 +1,4 @@
-WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:56:37
+WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-18 01:41:00
 
 *WebP Convert 2.3.2*  ignited.
 - PHP version: 8.0.3
@@ -115,7 +115,7 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
  segments total:  |  151535 |      16 |     155 |       0 |  151706  (93.8%)
 
 Success
-Reduction: -80% (went from 88 kb to 158 kb)
+Reduction: -216% (went from 50 kb to 158 kb)
 
 Converting to lossless
 Looking for cwebp binaries.
@@ -156,10 +156,10 @@ WebP Express 0.19.1. Conversion triggered using bulk conversion, 2021-05-17 02:5
   * Palette size:   125
 
 Success
-Reduction: 50% (went from 88 kb to 44 kb)
+Reduction: 13% (went from 50 kb to 44 kb)
 
 Picking lossless
 cwebp succeeded :)
 
-Converted image in 852 ms, reducing file size with 50% (went from 88 kb to 44 kb)
+Converted image in 1028 ms, reducing file size with 13% (went from 50 kb to 44 kb)
 
