@@ -8,12 +8,12 @@
 	>
 
 <channel>
-	<title>Varun Sharma &#8211; سيما سيتى</title>
+	<title>Varun Sharma &#8211; سيتى سيما</title>
 	<atom:link href="/actor/varun-sharma/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>موقع ووردبريس عربي آخر</description>
+	<description>تحميل ومشاهدة احدث افلام عربى , افلام اجنبى , مسلسلات , العاب, برامج , اغانى بروابط صااروخية و مشاهدة اون لاين يدعم النت الضعيف</description>
 	<lastBuildDate>Sat, 15 May 2021 19:09:37 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>ar</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
@@ -61,7 +61,8 @@
 	   <p id="two">
 
 		<video   controls src="https://archive.org/download/roohi-2021-hindi-720p-webrip-x-264-aac/Roohi%20%282021%29%20Hindi%20720p%20WEBRip%20x264%20AAC.mp4"  class="playr_video">
-<track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/subtitles/Roohi.vtt" default />
+
+			<track kind="subtitles" label="Arabic" srclang="ar" src="https://www.citycima.tk/subtitles/Roohi.vtt" default  />
 </video>
 			</p>
 	 
