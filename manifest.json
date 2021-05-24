@@ -2,10 +2,7 @@
   "dir": "rtl",
   "lang": "en-US",
   "name": "سيما سيتى",
-  "short_name": "سيما سيتى",
- 
-  "gcm_sender_id": "330561634409",
- 
+  "short_name": "سيما سيتى", 
   "display": "standalone",
   "start_url": "https://www.citycima.tk/",
   "background_color": "#000000",
