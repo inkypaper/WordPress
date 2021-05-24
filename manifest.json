@@ -3,9 +3,9 @@
   "lang": "en-US",
   "name": "سيما سيتى",
   "short_name": "سيما سيتى",
-  "scope": "/",
+ 
   "gcm_sender_id": "330561634409",
-  "gcm_user_visible_only": true
+ 
   "display": "standalone",
   "start_url": "https://www.citycima.tk/",
   "background_color": "#000000",
