@@ -1,9 +1,0 @@
-*{
-	outline:0 !important;	
-}
-html{
-	cursor: url(<?php bloginfo('template_url'); ?>/img/YC-mouse.png) , auto;
-}
-.clr{
-	clear:both;
-}

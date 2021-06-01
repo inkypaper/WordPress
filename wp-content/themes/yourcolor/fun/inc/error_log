@@ -1,3 +1,0 @@
-[21-Feb-2017 11:20:20 UTC] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/arabspyder/public_html/wp-includes/class-wp-locale.php on line 233
-[22-Feb-2017 12:47:31 UTC] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/arabspyder/public_html/wp-includes/class-wp-locale.php on line 233
-[22-Feb-2017 12:47:37 UTC] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/arabspyder/public_html/wp-includes/class-wp-locale.php on line 233
