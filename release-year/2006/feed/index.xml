@@ -9,8 +9,8 @@
 
 <channel>
 	<title>2006 &#8211; City Cima</title>
-	<atom:link href="https://www.citycima.tk/release-year/2006/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.citycima.tk/</link>
+	<atom:link href="/release-year/2006/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Watch and download recent Movies, Series, Anime</description>
 	<lastBuildDate>Tue, 01 Jun 2021 17:46:01 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>Death Note E37</title>
-		<link>https://www.citycima.tk/218/</link>
-					<comments>https://www.citycima.tk/218/#respond</comments>
+		<link>/218/</link>
+					<comments>/218/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:46:01 +0000</pubDate>
@@ -33,7 +33,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=218</guid>
+		<guid isPermaLink="false">/?p=218</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -93,15 +93,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/218/feed/</wfw:commentRss>
+					<wfw:commentRss>/218/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E36</title>
-		<link>https://www.citycima.tk/217/</link>
-					<comments>https://www.citycima.tk/217/#respond</comments>
+		<link>/217/</link>
+					<comments>/217/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:45 +0000</pubDate>
@@ -112,7 +112,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=217</guid>
+		<guid isPermaLink="false">/?p=217</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -172,15 +172,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/217/feed/</wfw:commentRss>
+					<wfw:commentRss>/217/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E35</title>
-		<link>https://www.citycima.tk/213/</link>
-					<comments>https://www.citycima.tk/213/#respond</comments>
+		<link>/213/</link>
+					<comments>/213/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:38 +0000</pubDate>
@@ -191,7 +191,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=213</guid>
+		<guid isPermaLink="false">/?p=213</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -251,15 +251,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/213/feed/</wfw:commentRss>
+					<wfw:commentRss>/213/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E34</title>
-		<link>https://www.citycima.tk/212/</link>
-					<comments>https://www.citycima.tk/212/#respond</comments>
+		<link>/212/</link>
+					<comments>/212/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:31 +0000</pubDate>
@@ -270,7 +270,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=212</guid>
+		<guid isPermaLink="false">/?p=212</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -330,15 +330,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/212/feed/</wfw:commentRss>
+					<wfw:commentRss>/212/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E33</title>
-		<link>https://www.citycima.tk/211/</link>
-					<comments>https://www.citycima.tk/211/#respond</comments>
+		<link>/211/</link>
+					<comments>/211/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:27 +0000</pubDate>
@@ -349,7 +349,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=211</guid>
+		<guid isPermaLink="false">/?p=211</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -409,15 +409,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/211/feed/</wfw:commentRss>
+					<wfw:commentRss>/211/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E32</title>
-		<link>https://www.citycima.tk/210/</link>
-					<comments>https://www.citycima.tk/210/#respond</comments>
+		<link>/210/</link>
+					<comments>/210/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:22 +0000</pubDate>
@@ -428,7 +428,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=210</guid>
+		<guid isPermaLink="false">/?p=210</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -488,15 +488,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/210/feed/</wfw:commentRss>
+					<wfw:commentRss>/210/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E31</title>
-		<link>https://www.citycima.tk/216/</link>
-					<comments>https://www.citycima.tk/216/#respond</comments>
+		<link>/216/</link>
+					<comments>/216/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:18 +0000</pubDate>
@@ -507,7 +507,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=216</guid>
+		<guid isPermaLink="false">/?p=216</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -567,15 +567,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/216/feed/</wfw:commentRss>
+					<wfw:commentRss>/216/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E30</title>
-		<link>https://www.citycima.tk/215/</link>
-					<comments>https://www.citycima.tk/215/#respond</comments>
+		<link>/215/</link>
+					<comments>/215/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:10 +0000</pubDate>
@@ -586,7 +586,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=215</guid>
+		<guid isPermaLink="false">/?p=215</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -646,15 +646,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/215/feed/</wfw:commentRss>
+					<wfw:commentRss>/215/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E29</title>
-		<link>https://www.citycima.tk/214/</link>
-					<comments>https://www.citycima.tk/214/#respond</comments>
+		<link>/214/</link>
+					<comments>/214/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:45:09 +0000</pubDate>
@@ -665,7 +665,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=214</guid>
+		<guid isPermaLink="false">/?p=214</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -725,15 +725,15 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/214/feed/</wfw:commentRss>
+					<wfw:commentRss>/214/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Death Note E28</title>
-		<link>https://www.citycima.tk/209/</link>
-					<comments>https://www.citycima.tk/209/#respond</comments>
+		<link>/209/</link>
+					<comments>/209/#respond</comments>
 		
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<pubDate>Tue, 01 Jun 2021 17:44:59 +0000</pubDate>
@@ -744,7 +744,7 @@
 		<category><![CDATA[Fantasy]]></category>
 		<category><![CDATA[Mystery]]></category>
 		<category><![CDATA[Thriller]]></category>
-		<guid isPermaLink="false">https://www.citycima.tk/?p=209</guid>
+		<guid isPermaLink="false">/?p=209</guid>
 
 					<description><![CDATA[]]></description>
 										<content:encoded><![CDATA[<div class="wrap">
@@ -804,7 +804,7 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://www.citycima.tk/209/feed/</wfw:commentRss>
+					<wfw:commentRss>/209/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
