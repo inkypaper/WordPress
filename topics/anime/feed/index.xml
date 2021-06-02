@@ -811,3 +811,5 @@
 			</item>
 	</channel>
 </rss>
+
+<!-- WP Optimize page cache - https://getwpo.com/ - page NOT cached because: We don't cache RSS feeds -->

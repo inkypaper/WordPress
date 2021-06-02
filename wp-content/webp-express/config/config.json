@@ -2,7 +2,7 @@
     "operation-mode": "no-conversion",
     "image-types": 3,
     "destination-folder": "mingled",
-    "destination-extension": "append",
+    "destination-extension": "set",
     "destination-structure": "doc-root",
     "cache-control": "no-header",
     "cache-control-custom": "public, max-age=31536000, stale-while-revalidate=604800, stale-if-error=604800",
@@ -109,7 +109,7 @@
         "alter-html-add-picturefill-js": true,
         "only-for-webps-that-exists": true,
         "replacement": "picture",
-        "hooks": "ob",
+        "hooks": "content-hooks",
         "hostname-aliases": []
     },
     "web-service": {

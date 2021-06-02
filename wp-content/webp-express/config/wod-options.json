@@ -9,7 +9,7 @@
             "canRunTestScriptInWOD": null,
             "canRunTestScriptInWOD2": null
         },
-        "destination-extension": "append",
+        "destination-extension": "set",
         "destination-folder": "mingled",
         "forward-query-string": true,
         "image-roots": [
