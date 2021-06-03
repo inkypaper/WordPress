@@ -10,7 +10,7 @@
 # - Redirection to converter: disabled
 # - Redirection to converter to create missing webp files upon request for the webp: disabled
 # - Destination folder: mingled
-# - Destination extension: append
+# - Destination extension: set
 # - Destination structure: doc-root
 # - Image types: jpeg, png
 # - Alter HTML enabled?: yes
@@ -35,8 +35,9 @@
 
   # Redirect to existing converted image in same dir (if browser supports webp)
   RewriteCond %{HTTP_ACCEPT} image/webp
-  RewriteCond %{REQUEST_FILENAME}.webp -f
-  RewriteRule ^/?(.*)\.(jpe?g|png)$ $1.$2.webp [NC,T=image/webp,E=EXISTING:1,E=ADDVARY:1,L]
+  RewriteCond %{REQUEST_URI} (?i)(.*)(\.jpe?g|\.png)$
+  RewriteCond %{DOCUMENT_ROOT}%1\.webp -f
+  RewriteRule (?i)(.*)(\.jpe?g|\.png)$ %1\.webp [T=image/webp,E=EXISTING:1,E=ADDVARY:1,L]
 
   # Make sure that browsers which does not support webp also gets the Vary:Accept header
   # when requesting images that would be redirected to webp on browsers that does.
