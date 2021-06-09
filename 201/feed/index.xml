@@ -19,5 +19,3 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 </channel>
 </rss>
-
-<!-- WP Optimize page cache - https://getwpo.com/ - page NOT cached because: We don't cache RSS feeds -->
